@@ -1,7 +1,26 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold%27');
+
+
 .ServiciosContainer{
     padding: 0;
     box-sizing: border-box;
     margin: 0;
     height: 1920px;
     background-color: grey;
+}
+
+.titleContainer {
+    position: relative;
+    text-align: center;
+    width: 1300px;
+    text-align: center;
+}
+
+.ServiciosP1 {
+    text-align: left;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
 }
