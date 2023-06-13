@@ -1,8 +1,7 @@
-.ServiciosContaner{
+.ServiciosContainer{
     padding: 0;
     box-sizing: border-box;
     margin: 0;
-    width: 1080px;
     height: 1920px;
     background-color: grey;
 }
