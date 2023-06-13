@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.generalContainer {
+  max-width: 1600px;
+  padding: 0 80px;
+  margin: auto;
+  pointer-events: none;
+}
+
+.titleContainer {
+  position: relative;
+  text-align: center;
+}
+
+.descriptionContainer {
+  display: flex;
+}
