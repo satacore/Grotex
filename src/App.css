@@ -1,4 +1,7 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,800;0,900;1,100&display=swap');
+
+.\App {
   text-align: center;
 }
 
@@ -26,6 +29,60 @@
 
 .App-link {
   color: #61dafb;
+}
+
+section {
+  padding: 80px 0;
+  pointer-events: none
+}
+
+.generalContainer {
+  max-width: 1600px;
+  padding: 0 80px;
+  margin: auto;
+  pointer-events: none;
+}
+
+.generalTextContainer {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+  pointer-events: none;
+}
+
+.titleContainer {
+  position: relative;
+  text-align: center;
+}
+
+.titleContainer .p1 {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}
+
+.p1Left {
+  font-family: 'Kanit', sans-serif;
+  padding-right: 2px;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 100;
+  color: rgb(160, 160, 160);
+}
+
+.descriptionContainer {
+  display: flex;
+}
+
+.descriptionContainer p {
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  text-align: LEFT;
+  font-weight: 200;
 }
 
 @keyframes App-logo-spin {
