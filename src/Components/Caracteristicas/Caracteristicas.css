@@ -1,0 +1,25 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold%27');
+
+
+.CaracteristicasContainer{
+    padding-top: 100px;
+    box-sizing: border-box;
+    margin: 0px;
+    height: 1000px;
+    background-color: white;
+}
+
+.titleContainer {
+    position: relative;
+    text-align: center;
+    width: 1300px;
+}
+
+.caracteristicasP1 {
+    text-align: left;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(160, 160, 160);
+}
