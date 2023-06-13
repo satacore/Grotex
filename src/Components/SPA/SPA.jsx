@@ -5,8 +5,8 @@ import Informacion from '../Informacion/Informacion.jsx'
 const SPA = () => {
   return (
     <>
-    <Servicios />
     <Informacion />
+    <Servicios />
     </>
   )
 }
