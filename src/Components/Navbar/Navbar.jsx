@@ -1,11 +1,11 @@
 import React from 'react'
 import {Link} from 'react-scroll'
 import './Navbar.css'
-import Logo from '../../assets/Logo.png'
+import Logo1 from '../../assets/Logo1.png'
 export const Navbar = () => {
   return (
     <header>
-        <img src={Logo} alt="" />
+        <img src={Logo1} alt="" />
         <nav>
             <p><Link to="Informacion" spy={true} smooth={true} offstet={50} duration={500} ><button>INFORMACION</button></Link></p>
             <p><Link to="Servicios" spy={true} smooth={true} offstet={50} duration={500} ><button>SERVICIOS</button></Link></p>
