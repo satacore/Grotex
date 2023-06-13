@@ -5,8 +5,9 @@ const Caracteristicas = () => {
   return (
     <div className='CaracteristicasContainer'>
         <div id='Caracteristicas' className='generalTextContainer'>
-            <p className='caracteristicasP1'> <span className='p1Left'>'03' | </span> CARACTERÍSTICAS</p>
-
+          <div className='titleContainer'>
+            <p className='p1'> <span className='p1Left'>'03' | </span> CARACTERÍSTICAS</p>
+          </div>
         </div>
     </div>
   )
