@@ -20,24 +20,12 @@ header {
     color: black;
     font-family: 'Roboto', sans-serif;
 }
-header nav{
-    width: 800px;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 10px;
-    padding-right: 50px;
-}
 
-a{
-    text-decoration: none;
-    font-size: 12px;
-    color:#1a1717;
-    font-family: 'gilroy', sans-serif;
-    font-weight: 400;
-}
 
-img {
-    max-width: 12%;
+
+
+.LogoImg{
+    max-width: 50%;
 }
 p{
     cursor: pointer;
@@ -81,4 +69,12 @@ button:after {
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 800ms;
     transition-property: width, left;
+}
+
+.NavBarItems{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 50px;
 }
