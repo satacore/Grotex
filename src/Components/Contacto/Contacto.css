@@ -1,4 +1,12 @@
 .contactoContainer{
     box-sizing: border-box;
     height: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    width: 800px;
+    height: 600px;
+    background-color: rgb(247, 244, 210);
 }

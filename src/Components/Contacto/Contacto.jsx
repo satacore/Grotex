@@ -3,7 +3,11 @@ import './Contacto.css'
 
  const Contacto = () => {
   return (
-    <div className='contactoContainer'></div>
+    <div className='contactoContainer'>
+        <div className='formulario'>
+            
+        </div>
+    </div>
   )
 }
 
