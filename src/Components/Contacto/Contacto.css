@@ -1,12 +1,30 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold%27');
+
+
 .contactoContainer{
     box-sizing: border-box;
     height: 980px;
+    align-items: center;
+
+}
+.formContainer{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .formulario{
     width: 800px;
     height: 600px;
     background-color: rgb(247, 244, 210);
+}
+.contactoTitulo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+.spanForm{
+    color: #e53e53;
+}
+.titleForm{
+    width: 800px;
 }
