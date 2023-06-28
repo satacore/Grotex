@@ -1,81 +1,81 @@
-*{
+{
     padding: 0px;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
-}
-
-:root{
-    --mainColor:white; 
-}
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 110px;
-    padding: 0 2rem;
-    background-color: var(--mainColor);
-    color: black;
-    font-family: 'Roboto', sans-serif;
-}
-
-
-
-
-.LogoImg{
-    max-width: 50%;
-}
-p{
-    cursor: pointer;
-    
-}
-
-button {
-    font-size: 12px;
-    color: #222222;
-    font-family: 'gilroy', sans-serif;
-    cursor: pointer;
-    position: relative;
-    border: none;
-    background: none;
-    text-transform: uppercase;
-    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
-    transition-duration: 400ms;
-    transition-property: color;
-}
-
-button:focus,
-button:hover {
-    color: #1d1b1b;
-}
-
-button:focus:after,
-button:hover:after {
-    width: 100%;
-    left: 0%;
-}
-
-button:after {
-    content: "";
-    pointer-events: none;
-    bottom: -2px;
-    left: 50%;
-    position: absolute;
-    width: 0%;
-    height: 1px;
-    background-color: #181717;
-    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
-    transition-duration: 800ms;
-    transition-property: width, left;
-}
-
-.NavBarItems{
-    width: 800px;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 10px;
-    padding-right: 50px;
-    margin-right: 100px;
-}
+  }
+  
+  
+  header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 70px;
+      padding: 0 2rem;
+      color: black;
+      font-family: 'Roboto', sans-serif;
+  }
+  
+  header nav {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 28px;
+      padding-right: 100px;
+      padding-left: 100px;
+  }
+  
+  img {
+      padding-top: 25px;
+      margin-left: 16px;
+      max-width: 70%;
+  }
+  
+  p {
+      cursor: pointer;
+  
+  }
+  
+  button {
+      line-height: 1.23;
+      font-weight: 500;
+      text-transform: uppercase;
+      font-size: max(.6770833333vw, 12px);
+      color: #464646;
+      font-family: 'Roobert', sans-serif;
+      cursor: pointer;
+      position: relative;
+      border: none;
+      background: none;
+      text-transform: uppercase;
+      transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+      transition-duration: 1s;
+      transition-property: color;
+  }
+  
+  button:focus,
+  button:hover {
+      color: #e53e53;
+      transition-duration: 1s;
+  }
+  
+  button:focus:after,
+  button:hover:after {
+      width: 100%;
+      left: 0%;
+  }
+  
+  button:after {
+      content: "";
+      pointer-events: none;
+      bottom: -2px;
+      left: 50%;
+      position: absolute;
+      width: 0%;
+      height: 1px;
+      background-color: #ffffff;
+      transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+      transition-duration: 1200ms;
+      transition-property: width, left;
+  }
