@@ -28,3 +28,11 @@
 .titleForm{
     width: 800px;
 }
+.inputDescription{
+    height: 100px;
+}
+.labelContainer{
+    padding: 0;
+    text-align: center;
+    width: 800px;
+}
