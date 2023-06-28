@@ -10,10 +10,10 @@ export const Navbar = () => {
     <header>
         <NavLink to="/"><img className='LogoImg' src={Logo1} alt="" /></NavLink>
         <nav>
-            <p><Link to="aboutus" spy={true} smooth={true} offstet={50} duration={500} ><button>ABOUT US</button></Link></p>
-            <p><Link to="work" spy={true} smooth={true} offstet={50} duration={500} ><button>WORK</button></Link></p>
-            <p><Link to="clients" spy={true} smooth={true} offstet={50} duration={500} ><button>CLIENTS</button></Link></p>
-            <p><Link to="contact" spy={true} smooth={true} offstet={50} duration={500} ><button>CONTACT</button></Link></p>
+            <p><Link to="Informacion" spy={true} smooth={true} offstet={50} duration={500} ><button>INFORMACION</button></Link></p>
+            <p><Link to="Servicios" spy={true} smooth={true} offstet={50} duration={500} ><button>SERVICIOS</button></Link></p>
+            <p><Link to="clients" spy={true} smooth={true} offstet={50} duration={500} ><button>CARACTERISTICAS</button></Link></p>
+            <p><NavLink to="/Contacto" spy={true} smooth={true} offstet={50} duration={500} ><button>CONTACTO</button></NavLink></p>
         </nav>
     </header>
   )
