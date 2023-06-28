@@ -13,22 +13,22 @@ import './Contacto.css'
               <label className='labelContainer'>
                 Nombre y Apellido: 
                 <br />
-                <input type="text" name='nombre' placeholder='Ingrese su nombre y apellido' size={40}/>
+                <input type="text" name='nombre' placeholder='Ingrese su nombre y apellido' size={50}/>
                 <br />
                 <br />
                 Correo electronico: 
                 <br />
-                <input type="email" name='email' placeholder='Ingrese su correo electronico' size={40}/>
+                <input type="email" name='email' placeholder='Ingrese su correo electronico' size={50}/>
                 <br />     
                 <br /> 
                 Telefono:
                 <br />
-                <input type="phone" name="telefono" placeholder='Ingrese su numero celular' size={40}/>   
+                <input type="phone" name="telefono" placeholder='Ingrese su numero celular' size={50}/>   
                 <br />
                 <br />     
                 Escriba su consulta: 
                 <br />
-                <input className='inputDescription' type="text" name='descripion' placeholder='Escriba su consulta aquí' size={80} />
+                <input className='inputDescription' type="text" name='descripion' placeholder='Escriba su consulta aquí' size={50} />
                 <br />
                 <br />
                 <input type="button" name='Enviar' value={'Enviar'}/>
