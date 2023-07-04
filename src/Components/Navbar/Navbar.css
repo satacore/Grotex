@@ -34,16 +34,16 @@
   
   p {
       cursor: pointer;
-  
   }
   
   button {
       line-height: 1.23;
-      font-weight: 500;
+      font-weight: 400;
+      letter-spacing: 2px;
       text-transform: uppercase;
       font-size: max(.6770833333vw, 12px);
       color: #464646;
-      font-family: 'Roobert', sans-serif;
+      font-family: 'Roboto', sans-serif;
       cursor: pointer;
       position: relative;
       border: none;
