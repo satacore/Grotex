@@ -3,8 +3,8 @@ import React from 'react'
 
 const Informacion = () => {
   return (
-    <section>
-      <div id='informacion' className='generalTextContainer'>
+    <section className='infoContainer'>
+      <div id='Informacion' className='generalTextContainer'>
           <div className='titleContainer'>
               <p className='p1'> <span className='p1Left'>*01* | </span> INFORMACION</p>
           </div>

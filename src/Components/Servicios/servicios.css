@@ -11,11 +11,9 @@
 }
 
 
-.titleContainer {
-    position: relative;
-    text-align: center;
-    width: 1300px;
 
+.titleContainer {
+    text-align: left;
 }
 
 .s1{

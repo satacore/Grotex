@@ -1,8 +1,20 @@
 @import url('https://fonts.cdnfonts.com/css/gilroy-bold%27');
 
+.infoContainer {
+    width: 100%;
+    padding: 80px 0;
+    pointer-events: none
+  }
+
+.generalTextContainer {
+    max-width: 100%;
+    padding: 0 15%;
+    pointer-events: none;
+}
+
+
 .titleContainer {
-    position: relative;
-    text-align: center;
+    text-align: left;
 }
 
 .titleContainer .p1 {
@@ -10,7 +22,15 @@
     font-weight: 400;
     color: #00000080;
 }
-
+.titleContainer .p1Left {
+    font-family: 'Kanit', sans-serif;
+    padding-right: 2px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 100;
+    color: rgb(160, 160, 160);
+  }
+  
 .titleContainer .p2 {
     font-size: 100px;
     font-weight: 400;
@@ -21,3 +41,10 @@
     top: 0;
     padding: 320px 0px 0px 400px;
 }
+.descriptionContainer p {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    text-align: LEFT;
+    font-weight: 200;
+  }

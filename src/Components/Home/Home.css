@@ -14,13 +14,13 @@ h1:hover {
 }
 
 .generalContainer{
-    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
     padding: 0px 0px 0px 80px;
     background-color: #060606;
 }
 
 .sloganContainer {
-    position: relative;
     width: 100%;
     min-height: 93vh;
     display: flex;
@@ -40,7 +40,7 @@ h1:hover {
 }
 
 .slogaSubtitle {
-    font-size: 110px;
+    font-size: 7em;
     font-weight: 100;
     color: #c4c4c4;
     margin-bottom: 140px;
