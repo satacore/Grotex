@@ -3,14 +3,34 @@
 
 .ServiciosContainer{
     padding-top: 100px;
+    padding-bottom: 100px;
     box-sizing: border-box;
     margin: 0px;
-    height: 1000px;
-    background-color: grey;
+    height: 100%;
+    background-color: #ffffff;
 }
+
 
 .titleContainer {
     position: relative;
     text-align: center;
     width: 1300px;
+
+}
+
+.s1{
+    margin-top: 20px;
+    font-size: 24px;
+    display: flex;
+    font-weight: 300;
+    color: #c4c4c4;
+    font-family: 'Inter', sans-serif;
+}
+
+.t1{
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+
 }
