@@ -24,6 +24,7 @@ h1:hover {
     width: 100%;
     min-height: 93vh;
     display: flex;
+    position: relative;
     justify-content: left;
     align-items: center;
     transition: 1.1s;
