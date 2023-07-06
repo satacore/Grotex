@@ -13,8 +13,9 @@
       justify-content: space-between;
       height: 70px;
       padding: 0 2rem;
+      padding-top: 40px;
       color: black;
-      background-color: #292929;
+      background-color: #060606;
       font-family: 'Roboto', sans-serif;
   }
   
@@ -22,13 +23,12 @@
       width: 100%;
       display: flex;
       justify-content: space-between;
-      padding-top: 28px;
+      padding: 0;
       padding-right: 100px;
       padding-left: 100px;
   }
   
   img {
-      padding-top: 25px;
       margin-left: 16px;
       max-width: 70%;
   }
