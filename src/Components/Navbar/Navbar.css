@@ -14,6 +14,7 @@
       height: 70px;
       padding: 0 2rem;
       color: black;
+      background-color: #292929;
       font-family: 'Roboto', sans-serif;
   }
   
@@ -50,14 +51,14 @@
       background: none;
       text-transform: uppercase;
       transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
-      transition-duration: 1s;
+      transition-duration: 2s;
       transition-property: color;
   }
   
   button:focus,
   button:hover {
-      color: #e53e53;
-      transition-duration: 1s;
+      color: #ffffff;
+      transition-duration: 2s;
   }
   
   button:focus:after,
@@ -74,7 +75,7 @@
       position: absolute;
       width: 0%;
       height: 1px;
-      background-color: #ffffff;
+      background-color: #e95d1c;
       transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
       transition-duration: 1200ms;
       transition-property: width, left;

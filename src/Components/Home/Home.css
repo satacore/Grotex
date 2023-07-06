@@ -12,6 +12,11 @@ h1:hover {
     cursor: pointer;
 }
 
+.generalContainer{
+    max-width: 100%;
+    background-color: #292929;
+}
+
 .sloganContainer {
     width: 100%;
     min-height: 93vh;
