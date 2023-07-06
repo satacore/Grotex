@@ -31,7 +31,6 @@ h1:hover {
 
 .slogan {
     position: absolute;
-    margin-top: 25px;
     letter-spacing: 5px;
     font-size: 20px;
     margin-left: 8px;
@@ -44,7 +43,7 @@ h1:hover {
     font-size: 110px;
     font-weight: 100;
     color: #c4c4c4;
-    margin-bottom: 90px;
+    margin-bottom: 140px;
     font-family: 'Inter', sans-serif;
 }
 
