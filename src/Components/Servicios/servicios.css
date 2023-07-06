@@ -16,10 +16,24 @@
     text-align: left;
 }
 
+.titleContainer .p1 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #00000080;
+}
+
+.titleContainer .p1Left {
+    font-family: 'Kanit', sans-serif;
+    padding-right: 2px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 100;
+    color: rgb(160, 160, 160);
+}
+
 .s1{
     margin-top: 20px;
     font-size: 24px;
-    display: flex;
     font-weight: 300;
     color: #c4c4c4;
     font-family: 'Inter', sans-serif;
