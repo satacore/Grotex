@@ -5,19 +5,41 @@
     background-color: #060606;
     display: flex;
     width: 100%;
-    height: 60px;
+    height: 100%;
     justify-content: center;
     align-items: center;
-    padding: 20px 20px;
-    
+    padding: 40px 40px;    
 }
+
+.footerCard{
+    width: 500px;
+}
+
 .FooterText{
-    text-align: center;
     text-decoration: solid;
     color: rgb(214, 214, 214);
     font-family: 'Inter', sans-serif;
     font-weight: 100;
     font-size: 14px;
-    position: absolute;
+    position: relative;
+}
 
+.footerTitle {
+    font-size: 3em;
+    font-weight: 100;
+    color: #c4c4c4;
+    margin-bottom: 40px;
+    font-family: 'Inter', sans-serif;
+}
+
+.footerSub{
+    font-size: 1em;
+    font-weight: 100;
+    color: #c4c4c4;
+    font-family: 'Inter', sans-serif;
+    padding-right: 130px;
+}
+
+.subCard{
+    display: flex;
 }
