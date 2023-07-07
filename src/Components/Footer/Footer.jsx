@@ -7,8 +7,11 @@ const Footer = () => {
   return (
     <div className='footerContainer'>
       <div className='footerCard'>
+        <div className='footerHeader'>
         <h1 className='footerTitle'>ECOMING AGENCIA DE MARKETING</h1>
         <hr></hr>
+        </div>
+        
           <div className='subCard'>
             <div className='subCarText'>
               <p className='footerSubTitle'>Links</p>
@@ -20,11 +23,11 @@ const Footer = () => {
             <div className='subCarText'>
               <p className='footerSubTitle'>Encontranos</p>
               <p className='footerSub'>+54 11 5464 1940</p>
-              <p className='footerSub'>info@adamasagencia.com.ar</p>
+              <p className='footerSub'>contacto@agenciaecoming.com</p>
             </div>
             <div className='subCarText'>
               <p className='footerSubTitle'>Redes</p>
-              <p className='footerSub'>Instagram</p>
+              <a className='linkIg' href="https://www.instagram.com/agenciaecoming/"><p className='footerSubIg'>Instagram</p></a>
               <p className='footerSub'>Facebook</p>
             </div>
           </div>

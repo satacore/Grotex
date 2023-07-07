@@ -11,7 +11,7 @@
 
 .footerCard{
     padding-top: 50px;
-    width: 80%;
+    
 }
 
 .FooterText{
@@ -47,7 +47,19 @@ hr {
     font-family: 'Inter', sans-serif;
     padding-bottom: 4px;
 }
+.footerSubIg{
+    font-size: 1em;
+    font-weight: 100;
+    color: #c4c4c4;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 4px;
+    cursor: pointer;
+    
+}
+.linkIg{
+    text-decoration: none;
 
+}
 .footerSubTitle {
     font-size: 1em;
     font-weight: 400;
@@ -59,6 +71,9 @@ hr {
 
 .subCard{
     display: flex;
-    justify-content: center;
-    padding-top: 50px;
+    padding: 50px 20%;
+    
+}
+.footerHeader{
+    padding: 0px 20%;
 }
