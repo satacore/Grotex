@@ -19,7 +19,6 @@ h1:hover {
     padding: 0px 0px 0px 80px;
     background-color: #060606;
 }
-
 .sloganContainer {
     width: 100%;
     min-height: 93vh;
@@ -53,6 +52,7 @@ h1:hover {
     position: absolute;
     bottom: 0;
     right: 0;
+    pointer-events: none;
 }
 
 .generalContainer .partnerImg {

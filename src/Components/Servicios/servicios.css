@@ -36,4 +36,9 @@
 
 .boxContainer {
     padding-right: 40px;
+    width: 50rem;
+}
+
+.ServiciosImg{
+    max-width: 50%;
 }
