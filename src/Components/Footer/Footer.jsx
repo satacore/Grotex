@@ -8,6 +8,7 @@ const Footer = () => {
     <div className='footerContainer'>
       <div className='footerCard'>
         <h1 className='footerTitle'>ECOMING AGENCIA DE MARKETING</h1>
+        <hr></hr>
           <div className='subCard'>
             <div className='subCarText'>
               <p className='footerSubTitle'>Links</p>
