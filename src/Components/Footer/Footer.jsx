@@ -7,18 +7,18 @@ const Footer = () => {
   return (
     <div className='footerContainer'>
       <div className='footerCard'>
-        <div className='footerHeader'>
-        <h1 className='footerTitle'>ECOMING AGENCIA DE MARKETING</h1>
+        <div>
+          <div className='footerHeader'>
+          <h1 className='footerTitle'>ECOMING AGENCIA DE MARKETING</h1>
         <hr></hr>
         </div>
-        
           <div className='subCard'>
             <div className='subCarText'>
               <p className='footerSubTitle'>Links</p>
               <p className='footerSub'><Link to="Informacion" spy={true} smooth={true} offstet={50} duration={500} >INFORMACION</Link></p>
               <p className='footerSub'><Link to="Servicios" spy={true} smooth={true} offstet={50} duration={500} >SERVICIOS</Link></p>
               <p className='footerSub'><Link to="Caracteristicas" spy={true} smooth={true} offstet={50} duration={500} >CARACTERISTICAS</Link></p>
-              <p className='footerSub'><NavLink to="/Contacto" spy={true} smooth={true} offstet={50} duration={500} >CONTACTO</NavLink></p>
+              <p className='footerSub'><NavLink className="contactLink" to="/Contacto" spy={true} smooth={true} offstet={50} duration={500} >CONTACTO</NavLink></p>
             </div>
             <div className='subCarText'>
               <p className='footerSubTitle'>Encontranos</p>
@@ -32,6 +32,8 @@ const Footer = () => {
             </div>
           </div>
       </div>
+        </div>
+        
       <p className='FooterText'>© 2023 Ecoming | All rights reserved | Privacy | Terms of Use | Desinged By: Satacore</p>
     </div>
   )
