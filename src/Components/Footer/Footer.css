@@ -21,7 +21,7 @@
     font-family: 'Inter', sans-serif;
     font-weight: 100;
     font-size: 14px;
-    position: relative;
+    margin-top: 400px;
 }
 
 .footerTitle {
@@ -37,7 +37,15 @@
     font-weight: 100;
     color: #c4c4c4;
     font-family: 'Inter', sans-serif;
-    padding-right: 130px;
+}
+
+.footerSubTitle {
+    font-size: 1em;
+    font-weight: 400;
+    color: #c4c4c4;
+    font-family: 'Inter', sans-serif;
+    padding-right: 200px;
+    padding-bottom: 10px;
 }
 
 .subCard{
