@@ -7,7 +7,7 @@
   }
   
   
-  header {
+  .headerNav {
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -19,7 +19,7 @@
       font-family: 'Roboto', sans-serif;
   }
   
-  header nav {
+  .navBarMain{
       width: 100%;
       display: flex;
       justify-content: space-between;
@@ -28,16 +28,16 @@
       padding-left: 100px;
   }
   
-  img {
+.LogoImg {
       margin-left: 16px;
       max-width: 70%;
-  }
+}
   
-  p {
+  .navLinks {
       cursor: pointer;
   }
   
-  button {
+  .navButton {
       line-height: 1.23;
       font-weight: 400;
       letter-spacing: 2px;

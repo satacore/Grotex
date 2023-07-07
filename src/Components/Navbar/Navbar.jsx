@@ -7,13 +7,13 @@ import Logo3 from '../../assets/Logo3.png'
 
 export const Navbar = () => {
   return (
-    <header>
+    <header className='headerNav'>
         <NavLink to="/"><img className='LogoImg' src={Logo3} alt="" /></NavLink>
-        <nav>
-            <p><Link to="Informacion" spy={true} smooth={true} offstet={50} duration={500} ><button>INFORMACION *</button></Link></p>
-            <p><Link to="Servicios" spy={true} smooth={true} offstet={50} duration={500} ><button>SERVICIOS *</button></Link></p>
-            <p><Link to="Caracteristicas" spy={true} smooth={true} offstet={50} duration={500} ><button>CARACTERISTICAS *</button></Link></p>
-            <p><NavLink to="/Contacto" spy={true} smooth={true} offstet={50} duration={500} ><button>CONTACTO *</button></NavLink></p>
+        <nav className='navBarMain'>
+            <p className='navLinks'><Link to="Informacion" spy={true} smooth={true} offstet={50} duration={500} ><button className='navButton'>INFORMACION *</button></Link></p>
+            <p className='navLinks'><Link to="Servicios" spy={true} smooth={true} offstet={50} duration={500} ><button className='navButton'>SERVICIOS *</button></Link></p>
+            <p className='navLinks'><Link to="Caracteristicas" spy={true} smooth={true} offstet={50} duration={500} ><button className='navButton'>CARACTERISTICAS *</button></Link></p>
+            <p className='navLinks'><NavLink to="/Contacto" spy={true} smooth={true} offstet={50} duration={500} ><button className='navButton'>CONTACTO *</button></NavLink></p>
         </nav>
     </header>
   )
