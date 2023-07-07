@@ -12,10 +12,10 @@ const Footer = () => {
           <div className='subCard'>
             <div className='subCarText'>
               <p className='footerSubTitle'>Links</p>
-              <p><Link to="Informacion" spy={true} smooth={true} offstet={50} duration={500} ><button >INFORMACION</button></Link></p>
-              <p><Link to="Servicios" spy={true} smooth={true} offstet={50} duration={500} ><button >SERVICIOS</button></Link></p>
-              <p><Link to="Caracteristicas" spy={true} smooth={true} offstet={50} duration={500} ><button >CARACTERISTICAS</button></Link></p>
-              <p><NavLink to="/Contacto" spy={true} smooth={true} offstet={50} duration={500} ><button className='footerSub'>CONTACTO</button></NavLink></p>
+              <p className='footerSub'><Link to="Informacion" spy={true} smooth={true} offstet={50} duration={500} >INFORMACION</Link></p>
+              <p className='footerSub'><Link to="Servicios" spy={true} smooth={true} offstet={50} duration={500} >SERVICIOS</Link></p>
+              <p className='footerSub'><Link to="Caracteristicas" spy={true} smooth={true} offstet={50} duration={500} >CARACTERISTICAS</Link></p>
+              <p className='footerSub'><NavLink to="/Contacto" spy={true} smooth={true} offstet={50} duration={500} >CONTACTO</NavLink></p>
             </div>
             <div className='subCarText'>
               <p className='footerSubTitle'>Encontranos</p>
