@@ -2,9 +2,11 @@ import React from 'react'
 import './Footer.css'
 import {Link} from 'react-scroll'
 import {NavLink} from "react-router-dom";
+import footerLogo from '../../assets/FooterLogo.png'
 
 const Footer = () => {
   return (
+    <>
     <div className='footerContainer'>
       <div className='footerCard'>
         <div>
@@ -28,14 +30,18 @@ const Footer = () => {
             <div className='subCarText'>
               <p className='footerSubTitle'>Redes</p>
               <a className='linkIg' href="https://www.instagram.com/agenciaecoming/"><p className='footerSubIg'>Instagram</p></a>
-              <p className='footerSub'>Facebook</p>
             </div>
           </div>
-      </div>
         </div>
-        
-      <p className='FooterText'>© 2023 Ecoming | All rights reserved | Privacy | Terms of Use | Desinged By: Satacore</p>
+      </div>
+      <div className='footerImg'>
+        <img src={footerLogo} alt="" />
+      </div>
     </div>
+    <p className='footerText'>© 2023 Ecoming | All rights reserved | Privacy | Terms of Use | Desinged By: Satacore</p>
+
+    </>
+    
   )
 }
 

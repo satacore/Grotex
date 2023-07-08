@@ -5,6 +5,7 @@
     box-sizing: border-box;
     height: 980px;
     align-items: center;
+    background-color: #060606;
 
 }
 .formContainer{
@@ -13,13 +14,15 @@
    
     
 }
+
 .formulario{
-    border: #e53e53 solid 1px;
-    border-radius: 15px;
+    border: #e64d66 solid 1px;
+    border-radius: 5px 30px;
     padding: 50px;
-    width: 500px;
+    width: max-content;
     height: 600px;
     background-color: white;
+    background-color: #e64d66;
 }
 .contactoTitulo{
     display: flex;
@@ -30,13 +33,46 @@
     text-align: center;
 
 }
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+}
 .spanForm{
-    color: #e53e53;
+    color: #e64d66;
 }
 .titleForm{
+    color: white;
     width: 500px;
 }
+.inputName{
+    border-radius: 5px;
+    border: solid 1px white;
+    height: 30px;
+}
+.inputEmail{
+    border-radius: 5px;
+    border: solid 1px white;
+    height: 30px;
+}
+.inputPhone{
+    border-radius: 5px;
+    border: solid 1px white;
+    height: 30px;
+}
 .inputDescription{
-    height: 200px;
-    
+    border-radius: 5px;
+    border: solid 1px white;
+    height: 150px;
+
+}
+.formButton{
+    height: 30px;
+    width: 90px;
+    font-family: 'Roboto';
+    border-radius: 0px 15px;
+    border: none;
+    background-color: white;
+    font-weight: 600;
+    color: #e64d66;
+    cursor: pointer;
 }

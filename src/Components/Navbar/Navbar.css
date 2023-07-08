@@ -18,6 +18,9 @@
       background-color: #060606;
       font-family: 'Roboto', sans-serif;
   }
+  .hidden{
+    display: none;
+}
   
   .navBarMain{
       width: 100%;

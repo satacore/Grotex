@@ -4,24 +4,33 @@
     box-sizing: border-box;
     background-color: #060606;
     width: 100%;
-    height: 100%;
+    height: 500px;
     padding: 0 10%;
     padding: 40px 40px;    
+    display: flex;
+    justify-content: center;
 }
 
 .footerCard{
     padding-top: 50px;
-    
-}
 
-.FooterText{
+}
+.footerImg{
+    padding-top: 50px;
+}
+.footerImg img{
+    padding-left: 50px;
+    height: 400px;
+}
+.footerText{
     text-decoration: solid;
     color: rgb(214, 214, 214);
     font-family: 'Inter', sans-serif;
+    background-color: #060606;
     font-weight: 100;
     font-size: 14px;
-    margin-top: 50px;
     text-align: center;
+    padding: 0px 0px 20px 0px;
 }
 
 .footerTitle {
