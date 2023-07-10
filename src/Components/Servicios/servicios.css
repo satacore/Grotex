@@ -14,13 +14,30 @@
     padding: 0 15%;
     pointer-events: none;
 }
+@media screen and (max-width:1023px) {
+    .generalTextContainer {
+           
+        width: 100%;
+    }
+}
 .titleContainer {
     text-align: left;
+}
+@media screen and (max-width:1023px) {
+    .titleContainer{
+        text-align: center;
+    }
 }
 .titleContainer .p1 {
     font-size: 14px;
     font-weight: 400;
     color: #00000080;
+}
+@media screen and (max-width:1023px) {
+    .titleContainer .p1 {
+        padding-bottom: 50px;
+        text-align: left;
+    }
 }
 .titleContainer .p1Left {
     font-family: 'Kanit', sans-serif;
@@ -32,13 +49,50 @@
   }
 .cardContainer {
     display: flex;
+    width: 100%;
+}
+@media screen and (max-width:1023px) {
+    .cardContainer {
+        display: block;   
+        text-align: center; 
+        left: 50%;
+        right: 50%;
+    }
 }
 
 .boxContainer {
     padding-right: 40px;
-    width: 50rem;
+    width: 500px;
 }
+@media screen and (max-width:1023px) {
+    .boxContainer {
+        width: 400px;  
+        margin: 0px;    
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width:750px) {
+    .boxContainer {
+        width: 300px;  
+        margin: 0px;    
+        margin-left: 20%;
 
+    }
+}
+@media screen and (max-width:600px) {
+    .boxContainer {
+        width: 300px;  
+        margin: 0px;    
+        margin-left: 10%;
+
+    }
+}
 .ServiciosImg{
     max-width: 50%;
+}
+@media screen and (max-width:1023px) {
+    .ServiciosImg {
+        max-width: 200px;
+        padding-left: 10%;
+    }
 }
