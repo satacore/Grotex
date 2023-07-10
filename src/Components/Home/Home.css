@@ -88,3 +88,10 @@ h1:hover {
         margin-top: 200px;
     }
 }
+
+.divisor{
+    height: 7px;
+    width: 100%;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(rgb(250, 107, 12)), color-stop(50%, rgb(229, 59, 85)));
+    margin-top: 0;
+}
