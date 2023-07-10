@@ -20,6 +20,11 @@ h1:hover {
     padding: 0px 0px 0px 80px;
     background-color: #060606;
 }
+@media screen and (max-width:850px) {
+    .generalContainer {
+        padding: 0px 0px 0px 40px;
+    }
+}
 .sloganContainer {
     width: 100%;
     min-height: 93vh;
@@ -57,6 +62,7 @@ h1:hover {
 @media screen and (max-width:850px) {
     .slogaSubtitle {
         font-size: 3em;
+        margin-bottom: 100px;
     }
 }
 
