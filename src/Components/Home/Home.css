@@ -20,7 +20,7 @@ h1:hover {
     padding: 0px 0px 0px 80px;
     background-color: #060606;
 }
-@media screen and (max-width:850px) {
+@media screen and (max-width:1023px) {
     .generalContainer {
         padding: 0px 0px 0px 40px;
     }
@@ -45,7 +45,7 @@ h1:hover {
     font-family: 'Inter', sans-serif;
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:1023px) {
     .slogan {
         font-size: 14px;
     }
@@ -59,7 +59,7 @@ h1:hover {
     font-family: 'Inter', sans-serif;
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:1023px) {
     .slogaSubtitle {
         font-size: 3em;
         margin-bottom: 100px;
@@ -82,7 +82,7 @@ h1:hover {
     opacity: 70%;
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:1023px) {
     .generalContainer .partnerImg {
         max-width: 70%;
         margin-top: 200px;

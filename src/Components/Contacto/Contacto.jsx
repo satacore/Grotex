@@ -11,23 +11,19 @@ import './Contacto.css'
       <div className='formContainer'>
             <form className='formulario' action="">
               <label className='labelContainer'>
-                Nombre y Apellido: 
-                <br />
+                <p>Nombre y Apellido: </p> 
                 <input className='inputName' type="text" name='nombre' placeholder='Ingrese su nombre y apellido' size={50}/>
                 <br />
                 <br />
-                Correo electronico: 
-                <br />
+                <p>Correo electronico: </p> 
                 <input className='inputEmail' type="email" name='email' placeholder='Ingrese su correo electronico' size={50}/>
                 <br />     
                 <br /> 
-                Telefono:
-                <br />
+                <p>Telefono:</p> 
                 <input className='inputPhone' type="phone" name="telefono" placeholder='Ingrese su numero celular' size={50}/>   
                 <br />
                 <br />     
-                Escriba su consulta: 
-                <br />
+                <p>Escriba su consulta:</p>  
                 <input className='inputDescription' type="text" name='descripion' placeholder='Escriba su consulta aquí' size={50} />
                 <br />
                 <br />
