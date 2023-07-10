@@ -30,10 +30,20 @@
       padding-right: 100px;
       padding-left: 100px;
   }
-  
+  @media screen and (max-width:850px) {
+      .navBarMain {
+          display: none;
+      }
+  }
 .LogoImg {
       margin-left: 16px;
       max-width: 70%;
+}
+@media screen and (max-width:850px) {
+    .LogoImg {
+        max-width: 40%;
+        margin-left: 0;
+    }
 }
   
   .navLinks {
