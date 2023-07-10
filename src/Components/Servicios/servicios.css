@@ -16,7 +16,7 @@
 }
 @media screen and (max-width:1023px) {
     .generalTextContainer {
-           
+        padding: 0 0;
         width: 100%;
     }
 }
@@ -55,11 +55,16 @@
     .cardContainer {
         display: block;   
         text-align: center; 
-        left: 50%;
-        right: 50%;
+        
     }
 }
-
+@media screen and (max-width: 481px) {
+    .cardContainer {
+        display: block;   
+        text-align: center; 
+        
+    }
+}
 .boxContainer {
     padding-right: 40px;
     width: 500px;
@@ -84,6 +89,14 @@
         width: 300px;  
         margin: 0px;    
         margin-left: 10%;
+
+    }
+}
+@media screen and (max-width:481px) {
+    .boxContainer {
+        width: auto;  
+        width: 250px;  
+
 
     }
 }
