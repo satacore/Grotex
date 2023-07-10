@@ -8,6 +8,7 @@ import Partners from '../../assets/Partners.png'
 const Home = () => {
 
   return (
+  <>
   <div className='generalContainer' id='top'>
     <div className='sloganContainer'>
       <h1 className='slogaSubtitle'>ECOMING *</h1>
@@ -16,6 +17,8 @@ const Home = () => {
       <img className='homeImg' src={HomeLogo2} alt="" />
     </div>
   </div>
+  <hr className='divisor'></hr>
+  </>
   )
 }
 
