@@ -48,3 +48,9 @@
     text-align: LEFT;
     font-weight: 200;
   }
+
+  @media screen and (max-width:850px) {
+    .descriptionContainer p {
+        font-size: 18px;
+    }
+}

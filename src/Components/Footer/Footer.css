@@ -22,6 +22,12 @@
     padding-left: 50px;
     height: 400px;
 }
+@media screen and (max-width:850px) {
+    .footerImg img {
+        display: none;
+    }
+}
+
 .footerText{
     text-decoration: solid;
     color: rgb(214, 214, 214);
@@ -39,7 +45,11 @@
     color: #c4c4c4;
     font-family: 'Inter', sans-serif;
 }
-
+@media screen and (max-width:850px) {
+    .footerTitle {
+        font-size: 2em;
+    }
+}
 hr {
     margin-top: 20px;
     margin-bottom: 30px;
@@ -48,7 +58,11 @@ hr {
     border: none;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(rgb(250, 107, 12)), to(transparent), color-stop(50%, rgb(229, 59, 85)));
 }
-
+@media screen and (max-width:850px) {
+    hr {
+        width: 380px;
+    }
+}
 .footerSub{
     font-size: 1em;
     font-weight: 100;
