@@ -17,7 +17,7 @@ const Home = () => {
       <img className='homeImg' src={HomeLogo2} alt="" />
     </div>
   </div>
-  <hr className='divisor'></hr>
+  <hr className='homeDivisor'></hr>
   </>
   )
 }

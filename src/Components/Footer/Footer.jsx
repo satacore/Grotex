@@ -12,7 +12,7 @@ const Footer = () => {
         <div>
           <div className='footerHeader'>
           <h1 className='footerTitle'>ECOMING AGENCIA DE MARKETING</h1>
-        <hr></hr>
+        <hr className='hrFooter'></hr>
         </div>
           <div className='subCard'>
             <div className='subCarText'>

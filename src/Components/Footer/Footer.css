@@ -67,7 +67,7 @@
         font-size: 2em;
     }
 }
-hr {
+.hrFooter {
     margin-top: 20px;
     height: 1px;
     width: 500px;
@@ -75,7 +75,7 @@ hr {
     background: -webkit-gradient(linear, 0 0, 100% 0, from(rgb(250, 107, 12)), to(transparent), color-stop(50%, rgb(229, 59, 85)));
 }
 @media screen and (max-width:1023px) {
-    hr {
+    .hrFooter {
         max-width: 250px;
     }
 }
