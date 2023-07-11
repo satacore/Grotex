@@ -58,28 +58,31 @@
 }
 .inputName{
     border-radius: 5px;
-    border: solid 1px white;
+    border: solid 1px rgb(194, 194, 194);
     height: 35px;
     border-radius: 2px;
+    background-color: rgb(212, 212, 212);
 }
 .inputEmail{
     border-radius: 5px;
-    border: solid 1px white;
+    border: solid 1px rgb(194, 194, 194);
     height: 35px;
     border-radius: 2px;
+    background-color: rgb(212, 212, 212);
 }
 .inputPhone{
     border-radius: 5px;
-    border: solid 1px white;
+    border: solid 1px rgb(194, 194, 194);
     height: 35px;
     border-radius: 2px;
+    background-color: rgb(212, 212, 212);
 }
 .inputDescription{
     border-radius: 5px;
-    border: solid 1px white;
+    border: solid 1px rgb(194, 194, 194);
     height: 120px;
     border-radius: 2px;
-
+    background-color: rgb(212, 212, 212);
 }
 .formButton{
     height: 30px;
