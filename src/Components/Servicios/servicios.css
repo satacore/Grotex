@@ -32,6 +32,7 @@
     font-size: 14px;
     font-weight: 400;
     color: #00000080;
+    padding-bottom: 20px;
 }
 @media screen and (max-width:1023px) {
     .titleContainer .p1 {
@@ -101,7 +102,8 @@
     }
 }
 .ServiciosImg{
-    max-width: 50%;
+    max-width: 40%;
+    opacity: 85%;
 }
 @media screen and (max-width:1023px) {
     .ServiciosImg {
