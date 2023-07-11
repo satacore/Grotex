@@ -26,7 +26,7 @@
     font-weight: 400;
     font-family: 'Inter', sans-serif;
     background: -webkit-linear-gradient(#f78c45, #e53856);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-bottom: 1rem;
 }
