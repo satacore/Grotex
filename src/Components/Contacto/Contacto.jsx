@@ -11,6 +11,7 @@ import './Contacto.css'
       <div className='formContainer'>
             <form className='formulario' action="">
               <label className='labelContainer'>
+                <hr style={{marginBottom: 20 , height:2}} className='homeDivisor'></hr>
                 <p>Nombre y Apellido: </p> 
                 <input className='inputName' type="text" name='nombre' placeholder='Ingrese su nombre y apellido' size={50}/>
                 <br />
@@ -24,13 +25,13 @@ import './Contacto.css'
                 <br />
                 <br />     
                 <p>Escriba su consulta:</p>  
-                <input className='inputDescription' type="text" name='descripion' placeholder='Escriba su consulta aquí' size={50} />
+                <input className='inputDescription' type="text" name='descripion' placeholder='Mensaje..' size={50} />
                 <br />
                 <br />
                 <div className='buttonContainer'>
                   <input className='formButton' type="button" name='Enviar' value={'Enviar Mensaje'}/>
                 </div>
-                
+                <hr style={{marginTop: 20 , height:2 }} className='homeDivisor'></hr>
               </label>
             </form>
       </div>

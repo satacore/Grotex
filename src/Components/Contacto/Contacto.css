@@ -11,15 +11,12 @@
 .formContainer{
     display: flex;
     justify-content: center;
-    padding-bottom:100px ;
+    padding-bottom:100px;
 }
 
 .formulario{
-    border: #e64d66 solid 1px;
-    border-radius: 6px;
-    padding: 50px;
+    padding: 10px;
     width: max-content;
-    height: 530px;
 }
 
 @media screen and (max-width:481px) {
