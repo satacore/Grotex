@@ -21,6 +21,14 @@
     width: max-content;
     height: 530px;
 }
+
+@media screen and (max-width:481px) {
+    .formulario {
+        border:0;
+        padding: 0;
+    }
+}
+
 .contactoTitulo{
     display: flex;
     justify-content: center;
