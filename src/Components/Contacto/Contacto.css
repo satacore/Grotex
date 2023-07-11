@@ -3,7 +3,7 @@
 
 .contactoContainer{
     box-sizing: border-box;
-    height: 980px;
+    height: auto;
     align-items: center;
     background-color: #060606;
 
@@ -11,24 +11,20 @@
 .formContainer{
     display: flex;
     justify-content: center;
-   
-    
+    padding-bottom:100px ;
 }
 
 .formulario{
     border: #e64d66 solid 1px;
-    border-radius: 5px 30px;
+    border-radius: 6px;
     padding: 50px;
     width: max-content;
-    height: 600px;
-    background-color: white;
-    background-color: #e64d66;
+    height: 530px;
 }
 .contactoTitulo{
     display: flex;
     justify-content: center;
     font-family: 'Roboto';
-    height: 200px;
     padding-top: 100px;
     text-align: center;
 
@@ -38,41 +34,70 @@
     justify-content: center;
 }
 .spanForm{
-    color: #e64d66;
+    color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    
 }
 .titleForm{
-    color: white;
-    width: 500px;
+    font-size: 3em;
+    font-weight: 100;
+    color: #c4c4c4;
+    font-family: 'Inter', sans-serif;
+    width: 800px;
 }
 .inputName{
     border-radius: 5px;
     border: solid 1px white;
-    height: 30px;
+    height: 35px;
+    border-radius: 2px;
 }
 .inputEmail{
     border-radius: 5px;
     border: solid 1px white;
-    height: 30px;
+    height: 35px;
+    border-radius: 2px;
 }
 .inputPhone{
     border-radius: 5px;
     border: solid 1px white;
-    height: 30px;
+    height: 35px;
+    border-radius: 2px;
 }
 .inputDescription{
     border-radius: 5px;
     border: solid 1px white;
-    height: 150px;
+    height: 120px;
+    border-radius: 2px;
 
 }
 .formButton{
     height: 30px;
-    width: 90px;
+    width: 110px;
+    letter-spacing: 0.5px;
     font-family: 'Roboto';
-    border-radius: 0px 15px;
+    border-radius: 2px;
     border: none;
-    background-color: white;
-    font-weight: 600;
-    color: #e64d66;
+    background-color: rgb(156, 156, 156);
+    font-weight: 300;
     cursor: pointer;
+    transition: 1s;
+    color: white;
+}
+
+.formButton:hover {
+    height: 30px;
+    width: 110px;
+    font-family: 'Roboto';
+    background-color: rgb(0, 0, 0);
+    transition: 1s;
+}
+
+.labelContainer p{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    padding-bottom: 4px;
 }

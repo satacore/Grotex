@@ -5,7 +5,7 @@ import './Contacto.css'
   return (
     <div className='contactoContainer'>
       <div className='contactoTitulo'>
-        <h2 className='titleForm'>QUIRE TRABAJAR CON NOSOTROS? <br /> <br /><span className='spanForm'>CONTÁCTENOS</span></h2>
+        <h1 className='titleForm'> CONTACTO <br /> <br /><span className='spanForm'>Nuestro equipo estará encantado de atenderte de manera personalizada. Puedes contactar con nosotros llenando el formulario de contacto.</span></h1>
       </div>
       <br />
       <div className='formContainer'>
@@ -28,7 +28,7 @@ import './Contacto.css'
                 <br />
                 <br />
                 <div className='buttonContainer'>
-                  <input className='formButton' type="button" name='Enviar' value={'Enviar'}/>
+                  <input className='formButton' type="button" name='Enviar' value={'Enviar Mensaje'}/>
                 </div>
                 
               </label>
