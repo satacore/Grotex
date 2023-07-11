@@ -5,7 +5,7 @@ import './Contacto.css'
   return (
     <div className='contactoContainer'>
       <div className='contactoTitulo'>
-        <h1 className='titleForm'> CONTACTO <br /> <br /><span className='spanForm'>Nuestro equipo estará encantado de atenderte de manera personalizada. Puedes contactar con nosotros llenando el formulario de contacto.</span></h1>
+        <h1 className='titleForm'> CONTACTO <br/><span className='spanForm'>Nuestro equipo estará encantado de atenderte de manera personalizada. Puedes contactar con nosotros llenando el formulario de contacto.</span></h1>
       </div>
       <br />
       <div className='formContainer'>

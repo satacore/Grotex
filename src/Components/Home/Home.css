@@ -90,7 +90,7 @@ h1:hover {
 }
 
 .homeDivisor{
-    height: 7px;
+    height: 6px;
     border: none;
     width: 100%;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(rgb(250, 107, 12)), color-stop(50%, rgb(229, 59, 85)));
