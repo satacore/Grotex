@@ -3,15 +3,15 @@ import {Link} from 'react-scroll'
 import {NavLink} from "react-router-dom";
 import './Navbar.css'
 import Logo3 from '../../assets/Logo3.png'
-import { useState } from 'react';
+import { useContext } from 'react';
+import { handleContext } from '../../Context/handleContext.jsx';
+
+
 
 
 export const Navbar = () => {
-  const [hideButtons, setHideButtons] = useState(false);
+  const {hideButtons, setHideButtons, handleClick} = useContext(handleContext)
 
-  const handleClick = () => {
-    setHideButtons(true);
-  };
   return (
     <header className='headerNav'>
         <NavLink to="/"><img onClick={() => setHideButtons(false)} className='LogoImg' src={Logo3} alt="" /></NavLink>

@@ -3,8 +3,13 @@ import './Footer.css'
 import {Link} from 'react-scroll'
 import {NavLink} from "react-router-dom";
 import footerLogo from '../../assets/FooterLogo.png'
+import { useContext } from 'react';
+import { handleContext } from '../../Context/handleContext.jsx';
+
 
 const Footer = () => {
+  const {hideButtons, handleClick} = useContext(handleContext)
+
   return (
     <>
     <div className='footerContainer'>
@@ -15,12 +20,12 @@ const Footer = () => {
         <hr className='hrFooter'></hr>
         </div>
           <div className='subCard'>
-            <div className='subCarText'>
+            <div className={hideButtons ? 'hidden' :'subCarText'}>
               <p className='footerSubTitle'>Links</p>
-              <p className='footerSubIg'><Link to="Informacion" spy={true} smooth={true} offstet={50} duration={500} >INFORMACION</Link></p>
-              <p className='footerSubIg'><Link to="Servicios" spy={true} smooth={true} offstet={50} duration={500} >SERVICIOS</Link></p>
-              <p className='footerSubIg'><Link to="Caracteristicas" spy={true} smooth={true} offstet={50} duration={500} >CARACTERISTICAS</Link></p>
-              <p className='footerSubIg'><NavLink className="contactLink" to="/Contacto" spy={true} smooth={true} offstet={50} duration={500} >CONTACTO</NavLink></p>
+              <p className={hideButtons ? 'hidden' :'footerSubIg'}><Link to="Informacion" spy={true} smooth={true} offstet={50} duration={500} >INFORMACION</Link></p>
+              <p className={hideButtons ? 'hidden' :'footerSubIg'}><Link to="Servicios" spy={true} smooth={true} offstet={50} duration={500} >SERVICIOS</Link></p>
+              <p className={hideButtons ? 'hidden' :'footerSubIg'}><Link to="Caracteristicas" spy={true} smooth={true} offstet={50} duration={500} >CARACTERISTICAS</Link></p>
+              <p onClick={handleClick} className={hideButtons ? 'hidden' :'footerSubIg'}><NavLink className="contactLink" to="/Contacto" spy={true} smooth={true} offstet={50} duration={500} >CONTACTO</NavLink></p>
             </div>
             <div className='subCarText'>
               <p className='footerSubTitle'>Encontranos</p>
