@@ -28,7 +28,7 @@ const Footer = () => {
               <p className='footerSub'>contacto@agenciaecoming.com</p>
             </div>
             <div className='subCarText'>
-              <p className='footerSubTitle'>Redes</p>
+                <p className='footerSubTitleRed'>Redes</p>
               <a className='linkIg' href="https://www.instagram.com/agenciaecoming/"><p className='footerSubIg'>Instagram</p></a>
             </div>
           </div>

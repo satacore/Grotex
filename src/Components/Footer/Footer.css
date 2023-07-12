@@ -120,7 +120,15 @@
     font-weight: 400;
     color: #c4c4c4;
     font-family: 'Inter', sans-serif;
-    padding-right: 150px;
+    padding-right: 180px;
+    padding-bottom: 10px;
+}
+.footerSubTitleRed {
+    font-size: 1em;
+    font-weight: 400;
+    color: #c4c4c4;
+    font-family: 'Inter', sans-serif;
+    padding-right: 0;
     padding-bottom: 10px;
 }
 @media screen and (max-width:1023px) {
