@@ -29,8 +29,8 @@ const Servicios = () => {
               </div>
               <div className='boxContainer'>
                 <img className='ServiciosImg' src={Paso} alt="" />
-                <h1 className='s1'>PASOS A SEGUIR *</h1>
-                <p className='t1'>La era online permite un seguimiento real de cada una de las herramientas que se ponen en práctica.</p>
+                <h1 className='s1'>SEGUIMIENTO *</h1>
+                <p className='t1'>Seguimiento personalizado de los resultados, ajuste de las estrategias optimizar el presupuesto y llegar a tus objetivos.</p>
               </div>
             </div>
           </div>
