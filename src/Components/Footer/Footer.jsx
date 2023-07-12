@@ -24,7 +24,7 @@ const Footer = () => {
             </div>
             <div className='subCarText'>
               <p className='footerSubTitle'>Encontranos</p>
-              <p className='footerSub'>+54 11 1111 1111</p>
+              <p className='footerSub'>+54 11 2576 5243</p>
               <p className='footerSub'>contacto@agenciaecoming.com</p>
             </div>
             <div className='subCarText'>
