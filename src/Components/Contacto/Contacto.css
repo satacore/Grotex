@@ -46,6 +46,11 @@
     letter-spacing: 1px;
     
 }
+@media screen and (max-width:481px) {
+    .contactFlex {
+        padding-top: 30px;
+    }
+}
 .titleForm{
     font-size: 3em;
     font-weight: 100;
