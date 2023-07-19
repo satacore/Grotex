@@ -3,23 +3,37 @@ import './Contacto.css'
 import {Link} from "react-router-dom";
 import { useContext } from 'react';
 import { handleContext } from '../../Context/handleContext.jsx';
+import emailjs from '@emailjs/browser'
+import { useRef } from 'react';
 
  const Contacto = () => {
+  const form = useRef()
   const {setHideButtons} = useContext(handleContext)
+  const sendEmail = (e) => {
+    e.preventDefault();
 
+    emailjs.sendForm('service_tmwi98c', 'template_aoovj0s', form.current, 'eXlG75zWKkoDql6oH')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
     <div className='contactoContainer'>
-      <div className='contactFlex'>      <Link to="/" ><button onClick={() => setHideButtons(false)} className='volverButton'>Volver al Inicio</button></Link></div>
+      <div className='contactFlex'>
+        <Link to="/" ><button onClick={() => setHideButtons(false)} className='volverButton'>Volver al Inicio</button></Link>
+      </div>
       <div className='contactoTitulo'>
         <h1 className='titleForm'> CONTACTO <br/><br/><span className='spanForm'>Nuestro equipo estará encantado de atenderte de manera personalizada. Puedes contactar con nosotros llenando el formulario de contacto.</span></h1>
       </div>
       <br />
       <div className='formContainer'>
-            <form className='formulario' action="">
+            <form ref={form} className='formulario' onSubmit={sendEmail}>
               <label className='labelContainer'>
                 <hr style={{marginBottom: 20 , height:2}} className='homeDivisor'></hr>
                 <p>Nombre y Apellido: </p> 
-                <input className='inputName' type="text" name='nombre' placeholder='Ingrese su nombre y apellido' size={50}/>
+                <input className='inputName' type="text" name='nombre_completo' placeholder='Ingrese su nombre y apellido' size={50}/>
                 <br />
                 <br />
                 <p>Correo electronico: </p> 
@@ -27,15 +41,15 @@ import { handleContext } from '../../Context/handleContext.jsx';
                 <br />     
                 <br /> 
                 <p>Telefono:</p> 
-                <input className='inputPhone' type="phone" name="telefono" placeholder='Ingrese su numero celular' size={50}/>   
+                <input className='inputPhone' type="phone" name="phone" placeholder='Ingrese su numero celular' size={50}/>   
                 <br />
                 <br />     
                 <p>Escriba su consulta:</p>  
-                <input className='inputDescription' type="text" name='descripion' placeholder='Mensaje..' size={50} />
+                <input className='inputDescription' type="text" name='message' placeholder='Mensaje..' size={50} />
                 <br />
                 <br />
                 <div className='buttonContainer'>
-                  <input className='formButton' type="button" name='Enviar' value={'Enviar Mensaje'}/>
+                  <input className='formButton' type="submit" name='Enviar' value="Enviar mensaje"/>
                 </div>
                 <hr style={{marginTop: 20 , height:2 }} className='homeDivisor'></hr>
               </label>

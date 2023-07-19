@@ -32,6 +32,7 @@
     font-family: 'Roboto';
     padding-top: 100px;
     text-align: center;
+    cursor: auto;
 
 }
 .buttonContainer{
@@ -44,6 +45,7 @@
     font-weight: 200;
     font-size: 18px;
     letter-spacing: 1px;
+    cursor: auto;
     
 }
 @media screen and (max-width:481px) {
@@ -57,6 +59,7 @@
     color: #c4c4c4;
     font-family: 'Inter', sans-serif;
     width: 800px;
+    cursor: auto;
 }
 .inputName{
     border-radius: 5px;
