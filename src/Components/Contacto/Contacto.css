@@ -109,3 +109,7 @@
     font-weight: 100;
     padding-bottom: 4px;
 }
+.volverButton{
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(rgb(250, 107, 12))s, color-stop(50%, rgb(229, 59, 85)));
+
+}

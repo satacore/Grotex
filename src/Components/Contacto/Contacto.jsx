@@ -35,6 +35,7 @@ import './Contacto.css'
               </label>
             </form>
       </div>
+      <button className='volverButton'>Volver al Inicio</button>
     </div>
   )
 }

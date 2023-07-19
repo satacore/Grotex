@@ -30,7 +30,7 @@ const Servicios = () => {
               <div className='boxContainer'>
                 <img className='ServiciosImg' src={Paso} alt="" />
                 <h1 className='s1'>SEGUIMIENTO *</h1>
-                <p className='t1'>Seguimiento personalizado de los resultados, ajuste de las estrategias optimizar el presupuesto y llegar a tus objetivos.</p>
+                <p className='t1'>Seguimiento personalizado de los resultados, ajuste de las estrategias, optimizar el presupuesto y llegar a tus objetivos.</p>
               </div>
             </div>
           </div>
