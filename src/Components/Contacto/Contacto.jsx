@@ -1,7 +1,12 @@
 import React from 'react'
 import './Contacto.css'
+import {Link} from "react-router-dom";
+import { useContext } from 'react';
+import { handleContext } from '../../Context/handleContext.jsx';
 
  const Contacto = () => {
+  const {setHideButtons} = useContext(handleContext)
+
   return (
     <div className='contactoContainer'>
       <div className='contactoTitulo'>
@@ -35,7 +40,7 @@ import './Contacto.css'
               </label>
             </form>
       </div>
-      <button className='volverButton'>Volver al Inicio</button>
+      <Link to="/"><button onClick={() => setHideButtons(false)} className='volverButton'>Volver al Inicio</button></Link>
     </div>
   )
 }
