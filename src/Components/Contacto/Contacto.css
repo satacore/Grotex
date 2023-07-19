@@ -99,7 +99,7 @@
     height: 30px;
     width: 110px;
     font-family: 'Roboto';
-    background-color: rgb(0, 0, 0);
+    background-color: #060606;
     transition: 1s;
 }
 
@@ -121,9 +121,14 @@
     font-family: 'Inter', sans-serif;
     justify-self: center;
     text-decoration: none;
+<<<<<<< HEAD
 
 }
 .contactFlex{
+=======
+}
+.contactFlex {
+>>>>>>> e0a9e4ee11674a59bfb0748ed889ab0bf570e8a5
     display: flex;
     width: 100%;
     justify-content: center;
