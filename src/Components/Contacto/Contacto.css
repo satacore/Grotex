@@ -110,6 +110,16 @@
     padding-bottom: 4px;
 }
 .volverButton{
-    background: -webkit-gradient(linear, 0 0, 100% 0, from(rgb(250, 107, 12))s, color-stop(50%, rgb(229, 59, 85)));
-
+    height: 50px;
+    border-radius: 5px;
+    padding: 0px 10px;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(rgb(250, 107, 12)), to(transparent), color-stop(50%, rgb(229, 59, 85)));
+    color: white;
+    border: transparent;
+    font-size: medium;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    justify-self: center;
+    place-content: center;
+    text-decoration: none;
 }

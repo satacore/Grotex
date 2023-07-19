@@ -9,6 +9,7 @@ import { handleContext } from '../../Context/handleContext.jsx';
 
   return (
     <div className='contactoContainer'>
+      <Link to="/" ><button onClick={() => setHideButtons(false)} className='volverButton'>Volver al Inicio</button></Link>
       <div className='contactoTitulo'>
         <h1 className='titleForm'> CONTACTO <br/><br/><span className='spanForm'>Nuestro equipo estará encantado de atenderte de manera personalizada. Puedes contactar con nosotros llenando el formulario de contacto.</span></h1>
       </div>
@@ -40,7 +41,6 @@ import { handleContext } from '../../Context/handleContext.jsx';
               </label>
             </form>
       </div>
-      <Link to="/"><button onClick={() => setHideButtons(false)} className='volverButton'>Volver al Inicio</button></Link>
     </div>
   )
 }
