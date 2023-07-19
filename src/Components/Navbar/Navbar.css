@@ -68,19 +68,19 @@
       transition-property: color;
   }
   
-  button:focus,
-  button:hover {
+  .navButton:focus,
+  .navButton:hover {
       color: #ffffff;
       transition-duration: 2s;
   }
   
-  button:focus:after,
-  button:hover:after {
+.navButton:focus:after,
+.navButton:hover:after {
       width: 100%;
       left: 0%;
   }
   
-  button:after {
+.navButton:after {
       content: "";
       pointer-events: none;
       bottom: -2px;
