@@ -5,6 +5,8 @@ import { useContext } from 'react';
 import { handleContext } from '../../Context/handleContext.jsx';
 import emailjs from '@emailjs/browser'
 import { useRef } from 'react';
+import Swal from 'sweetalert2'
+
 
  const Contacto = () => {
   const form = useRef()
@@ -14,9 +16,14 @@ import { useRef } from 'react';
 
     emailjs.sendForm('service_tmwi98c', 'template_aoovj0s', form.current, 'eXlG75zWKkoDql6oH')
       .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
+        Swal.fire({
+          icon: 'success',
+          text: 'El correo fue enviado con exito'
+      })}, (error) => {
+        Swal.fire({
+          icon: 'error',
+          text: 'El correo no pudo enviarse, intentelo mas tarde'
+      })
       });
   };
   return (
