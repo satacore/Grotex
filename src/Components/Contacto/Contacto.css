@@ -121,14 +121,9 @@
     font-family: 'Inter', sans-serif;
     justify-self: center;
     text-decoration: none;
-<<<<<<< HEAD
+}
 
-}
-.contactFlex{
-=======
-}
 .contactFlex {
->>>>>>> e0a9e4ee11674a59bfb0748ed889ab0bf570e8a5
     display: flex;
     width: 100%;
     justify-content: center;
