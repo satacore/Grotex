@@ -6,7 +6,7 @@
     height: auto;
     align-items: center;
     background-color: #060606;
-
+    width: 100%;
 }
 .formContainer{
     display: flex;
@@ -120,6 +120,11 @@
     font-weight: 600;
     font-family: 'Inter', sans-serif;
     justify-self: center;
-    place-content: center;
     text-decoration: none;
+
+}
+.contactFlex{
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
