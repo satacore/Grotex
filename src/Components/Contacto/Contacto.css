@@ -110,17 +110,24 @@
     padding-bottom: 4px;
 }
 .volverButton{
-    height: 50px;
-    border-radius: 5px;
-    padding: 0px 10px;
-    background: -webkit-gradient(linear, 0 0, 100% 0, from(rgb(250, 107, 12)), to(transparent), color-stop(50%, rgb(229, 59, 85)));
-    color: white;
-    border: transparent;
-    font-size: medium;
-    font-weight: 600;
-    font-family: 'Inter', sans-serif;
-    justify-self: center;
-    text-decoration: none;
+    line-height: 1.23;
+        font-weight: 400;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: max(.6770833333vw, 12px);
+        color: #aaaaaa;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+        position: relative;
+        border: none;
+        background: none;
+        text-transform: uppercase;
+        transition-duration: 2s;
+        transition-property: color;
+}
+.volverButton:hover {
+    color: #ffffff;
+    transition-duration: 2s;
 }
 
 .contactFlex {
