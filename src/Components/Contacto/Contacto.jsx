@@ -14,7 +14,7 @@ import Swal from 'sweetalert2'
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_tmwi98c', 'template_aoovj0s', form.current, 'eXlG75zWKkoDql6oH')
+    emailjs.sendForm('service_wsabdxf', 'template_aoovj0s', form.current, 'eXlG75zWKkoDql6oH')
       .then((result) => {
         Swal.fire({
           icon: 'success',
