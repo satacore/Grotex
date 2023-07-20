@@ -1,5 +1,6 @@
 {
   "name": "ecomminglanding",
+  "homepage": "https://agenciaecoming.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
