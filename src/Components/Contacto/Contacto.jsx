@@ -48,7 +48,7 @@ import Swal from 'sweetalert2'
                 <br />     
                 <br /> 
                 <p>Telefono:</p> 
-                <input className='inputPhone' type="phone" name="phone" placeholder='Ingrese su numero celular' size={50}/>   
+                <input className='inputPhone' type="number" name="phone" placeholder='Ingrese su numero celular' size={50}/>   
                 <br />
                 <br />     
                 <p>Escriba su consulta:</p>  

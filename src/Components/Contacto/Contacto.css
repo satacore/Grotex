@@ -18,11 +18,16 @@
     padding: 10px;
     width: max-content;
 }
-
 @media screen and (max-width:481px) {
     .formulario {
         border:0;
         padding: 0;
+        width: 90%;
+    }
+}
+@media screen and (max-width:481px) {
+    .inputName,.inputEmail,.inputDescription {
+        width: 98%;
     }
 }
 
@@ -67,6 +72,8 @@
     height: 35px;
     border-radius: 2px;
     background-color: rgb(212, 212, 212);
+    padding-left: 5px;
+    outline: none;
 }
 .inputEmail{
     border-radius: 5px;
@@ -74,13 +81,23 @@
     height: 35px;
     border-radius: 2px;
     background-color: rgb(212, 212, 212);
+    padding-left: 5px;
+    outline: none;
 }
 .inputPhone{
     border-radius: 5px;
     border: solid 1px rgb(194, 194, 194);
     height: 35px;
+    width: 375px;
     border-radius: 2px;
     background-color: rgb(212, 212, 212);
+    padding-left: 5px;
+    outline: none;
+}
+@media screen and (max-width:481px) {
+    .inputPhone {
+        width: 98%;
+    }
 }
 .inputDescription{
     border-radius: 5px;
@@ -88,7 +105,10 @@
     height: 120px;
     border-radius: 2px;
     background-color: rgb(212, 212, 212);
+    padding-left: 5px;
+    outline: none;
 }
+
 .formButton{
     height: 30px;
     width: 110px;

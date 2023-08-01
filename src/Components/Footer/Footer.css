@@ -109,7 +109,9 @@
 @media screen and (max-width:1023px) {
     .footerSubIg{
         font-size: 0.8em;
-
+    }
+    .footerSubIg:hover{
+        color: #c4c4c4;
     }
 }
 .linkIg{
@@ -135,7 +137,6 @@
     .footerSubTitle {
         font-size: 0.8em;
         padding-right: 100px;
-
     }
 }
 .contactLink{
@@ -150,6 +151,11 @@
 .contactLink:hover {
     transition: 1s;
     color: #646464;
+}
+@media screen and (max-width:1023px) {
+    .contactLink:hover {
+        color: #c4c4c4;
+    }
 }
 .subCard{
     display: flex;
