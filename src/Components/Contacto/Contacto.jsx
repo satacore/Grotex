@@ -1,16 +1,15 @@
 import React from 'react'
 import './Contacto.css'
 import {Link} from "react-router-dom";
-import { useContext } from 'react';
-import { handleContext } from '../../Context/handleContext.jsx';
 import emailjs from '@emailjs/browser'
 import { useRef } from 'react';
 import Swal from 'sweetalert2'
+import  Navbar2  from '../Navbar/Navbar2.jsx';
 
 
  const Contacto = () => {
   const form = useRef()
-  const {setHideButtons} = useContext(handleContext)
+  
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -27,9 +26,11 @@ import Swal from 'sweetalert2'
       });
   };
   return (
+    <>
+    <Navbar2/>
     <div className='contactoContainer'>
       <div className='contactFlex'>
-        <Link to="/" ><button onClick={() => setHideButtons(false)} className='volverButton'>Volver al Inicio</button></Link>
+        <Link to="/" ><button  className='volverButton'>Volver al Inicio</button></Link>
       </div>
       <div className='contactoTitulo'>
         <h1 className='titleForm'> CONTACTO <br/><br/><span className='spanForm'>Nuestro equipo estará encantado de atenderte de manera personalizada. Puedes contactar con nosotros llenando el formulario de contacto.</span></h1>
@@ -63,6 +64,8 @@ import Swal from 'sweetalert2'
             </form>
       </div>
     </div>
+    </>
+    
   )
 }
 

@@ -10,7 +10,6 @@ function App() {
   return (
     <Provider>
       <BrowserRouter>
-        <Navbar />
         <Routes>
           <Route path="/" element={<SPA />} />
           <Route path="/Contacto" element={<Contacto/>}/>
