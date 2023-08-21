@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<SPA />} />
-          <Route path="/Contacto" element={<Contacto />} />
+          <Route path="/#Contacto" element={<Contacto />} />
         </Routes>
       </BrowserRouter>
     </Provider>
