@@ -31,8 +31,19 @@
       padding-left: 100px;
   }
   @media screen and (max-width:1023px) {
-      .navBarMain {
-          display: none;
+      #infoButton{
+        display: none;
+      }
+      #serviciosButton{
+        display: none;
+      }
+      #caracteristicasButton{
+        display: none;
+      }
+      .navBarMain{
+        justify-content: end;
+        width: 200px;
+        padding: 0;
       }
   }
 .LogoImg {
@@ -41,8 +52,8 @@
 }
 @media screen and (max-width:1023px) {
     .LogoImg {
-        max-width: 40%;
         margin-left: 0;
+        width: 100%;
     }
 }
   
