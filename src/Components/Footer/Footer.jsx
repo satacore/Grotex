@@ -16,7 +16,7 @@ const Footer = () => {
       <div className='footerCard'>
         <div>
           <div className='footerHeader'>
-          <h1 className='footerTitle'>ECOMING AGENCIA DE MARKETING</h1>
+          <h1 className='footerTitle' style={{cursor: "default"}}>ECOMING AGENCIA DE MARKETING</h1>
         <hr className='hrFooter'></hr>
         </div>
           <div className='subCard'>

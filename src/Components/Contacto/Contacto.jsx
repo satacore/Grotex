@@ -34,7 +34,7 @@ import Footer2 from '../Footer2/Footer2';
         <Link to="/" ><button  className='volverButton'>Volver al Inicio</button></Link>
       </div>
       <div className='contactoTitulo'>
-        <h1 className='titleForm'> CONTACTO <br/><br/><span className='spanForm'>Nuestro equipo estará encantado de atenderte de manera personalizada. Puedes contactar con nosotros llenando el formulario de contacto.</span></h1>
+        <h1 className='titleForm' style={{cursor: "default"}}> CONTACTO <br/><br/><span className='spanForm'>Nuestro equipo estará encantado de atenderte de manera personalizada. Puedes contactar con nosotros llenando el formulario de contacto.</span></h1>
       </div>
       <br />
       <div className='formContainer'>
