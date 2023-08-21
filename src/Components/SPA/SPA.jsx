@@ -5,6 +5,7 @@ import Caracteristicas from '../Caracteristicas/Caracteristicas.jsx'
 import Home from '../Home/Home.jsx'
 import Galery from '../Galery/Galery.jsx'
 import Navbar from '../Navbar/Navbar.jsx'
+import Footer from '../Footer/Footer.jsx'
 
 
 const SPA = () => {
@@ -16,6 +17,7 @@ const SPA = () => {
     <Servicios />
     <Galery/>
     <Caracteristicas/>
+    <Footer />
     </>
   )
 }

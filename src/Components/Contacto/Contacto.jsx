@@ -5,6 +5,7 @@ import emailjs from '@emailjs/browser'
 import { useRef } from 'react';
 import Swal from 'sweetalert2'
 import  Navbar2  from '../Navbar/Navbar2.jsx';
+import Footer2 from '../Footer2/Footer2';
 
 
  const Contacto = () => {
@@ -64,6 +65,7 @@ import  Navbar2  from '../Navbar/Navbar2.jsx';
             </form>
       </div>
     </div>
+    <Footer2/>
     </>
     
   )
