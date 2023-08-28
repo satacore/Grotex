@@ -1,6 +1,6 @@
 import React from 'react'
 import {NavLink} from "react-router-dom";
-import './Navbar.css'
+import './navbar2.css'
 import Logo3 from '../../assets/Logo3.png'
 
 
@@ -10,7 +10,8 @@ const Navbar2 = () => {
 
   return (
     <header className='headerNav'>
-        <NavLink to="/"><img  className='LogoImg' src={Logo3} alt="" /></NavLink>
+        <NavLink to="/"><img  style={{maxWidth: "56%"}} className='LogoImg' src={Logo3} alt="" /></NavLink>
+        
     </header>
   )
 }

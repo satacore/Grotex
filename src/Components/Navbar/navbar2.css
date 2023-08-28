@@ -1,0 +1,114 @@
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.headerNav2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 2rem;
+    padding-top: 40px;
+    color: black;
+    background-color: #060606;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.navBarMain {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    padding: 0;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+@media screen and (max-width:1023px) {
+    #infoButton {
+        display: none;
+    }
+
+    #serviciosButton {
+        display: none;
+    }
+
+    #caracteristicasButton {
+        display: none;
+    }
+
+    .navBarMain {
+        justify-content: end;
+        width: 200px;
+        padding: 0;
+    }
+}
+
+.LogoImg {
+    margin-left: 16px;
+    max-width: 70%;
+}
+
+@media screen and (max-width:1023px) {
+    .LogoImg {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+.navLinks {
+    cursor: pointer;
+}
+
+.navButton {
+    line-height: 1.23;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: max(.6770833333vw, 12px);
+    color: #aaaaaa;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 2s;
+    transition-property: color;
+}
+
+.navButton:focus,
+.navButton:hover {
+    color: #ffffff;
+    transition-duration: 2s;
+}
+
+.navButton:focus:after,
+.navButton:hover:after {
+    width: 100%;
+    left: 0%;
+}
+
+.navButton:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    background-color: #e64d66;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 1200ms;
+    transition-property: width, left;
+}
