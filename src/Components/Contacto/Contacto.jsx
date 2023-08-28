@@ -6,8 +6,10 @@ import { useRef } from 'react';
 import Swal from 'sweetalert2'
 import  Navbar2  from '../Navbar/Navbar2.jsx';
 import Footer2 from '../Footer2/Footer2';
+import ReCAPTCHA from "react-google-recaptcha"
 
 
+ const onChange = () => {}
  const Contacto = () => {
   const form = useRef()
   
@@ -57,6 +59,7 @@ import Footer2 from '../Footer2/Footer2';
                 <input className='inputDescription' type="text" name='message' placeholder='Mensaje..' size={50} />
                 <br />
                 <br />
+                <ReCAPTCHA sitekey="6Ldt0-AnAAAAAF-t9BGbYwmuLzO6cANmBEMD4MVc" onChange={onChange}/>
                 <div className='buttonContainer'>
                   <input className='formButton' type="submit" name='Enviar' value="Enviar mensaje"/>
                 </div>
