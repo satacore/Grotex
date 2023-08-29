@@ -52,14 +52,15 @@ import ReCAPTCHA from "react-google-recaptcha"
                 <br />     
                 <br /> 
                 <p>Telefono:</p> 
-                <input className='inputPhone' type="number" name="phone" placeholder='Ingrese su numero celular' size={50}/>   
+                <input className='inputPhone' type="text" name="phone" placeholder='Ingrese su numero celular' size={50}/>   
                 <br />
                 <br />     
                 <p>Escriba su consulta:</p>  
                 <input className='inputDescription' type="text" name='message' placeholder='Mensaje..' size={50} />
                 <br />
                 <br />
-                <ReCAPTCHA sitekey="6Ldt0-AnAAAAAF-t9BGbYwmuLzO6cANmBEMD4MVc" onChange={onChange}/>
+                <ReCAPTCHA id='captcha' sitekey="6LdJNOQnAAAAAF728CQrfqlKxVU4ht9bOM_Wmq_a" onChange={onChange}/>
+                <br />
                 <div className='buttonContainer'>
                   <input className='formButton' type="submit" name='Enviar' value="Enviar mensaje"/>
                 </div>
