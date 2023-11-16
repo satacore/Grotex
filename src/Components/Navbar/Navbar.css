@@ -83,7 +83,7 @@
   
   .navButton:focus,
   .navButton:hover {
-      color: #ffffff;
+      color: #e44242;
       transition-duration: 2s;
   }
   

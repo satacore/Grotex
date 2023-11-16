@@ -48,7 +48,7 @@ h1:hover {
     font-size: 20px;
     margin-left: 8px;
     font-weight: 400;
-    color: #c4c4c4;
+    color: #231f1f;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -61,7 +61,7 @@ h1:hover {
 .slogaSubtitle {
     font-size: 7em;
     font-weight: 600;
-    color: #c4c4c4;
+    color: #231f1f;
     margin-bottom: 140px;
     font-family: 'Free Sans Bold';
 }
