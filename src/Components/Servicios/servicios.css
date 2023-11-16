@@ -28,6 +28,7 @@
         text-align: center;
     }
 }
+
 .titleContainer .p1 {
     font-size: 14px;
     font-weight: 400;
@@ -69,8 +70,9 @@
     }
 }
 .boxContainer {
-    padding-right: 40px;
     width: 500px;
+    text-align: center;
+    padding: 0 20px;
 }
 @media screen and (max-width:1023px) {
     .boxContainer {
