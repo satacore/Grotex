@@ -90,7 +90,7 @@
 
 .navButton:focus,
 .navButton:hover {
-    color: #ffffff;
+    color: #333333;
     transition-duration: 2s;
 }
 
@@ -108,7 +108,7 @@
     position: absolute;
     width: 0%;
     height: 1px;
-    background-color: #e64d66;
+    background-color: #0191d2;
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 1200ms;
     transition-property: width, left;
