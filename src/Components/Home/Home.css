@@ -75,12 +75,6 @@ h1:hover {
 }
 
 
-.generalContainer .partnerImg {
-    position: absolute;
-    max-width: 100%;
-    margin-top: 400px;
-    opacity: 70%;
-}
 
 @media screen and (max-width:1023px) {
     .generalContainer .partnerImg {
