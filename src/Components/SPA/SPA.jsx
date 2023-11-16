@@ -15,8 +15,11 @@ const SPA = () => {
     <Navbar/>
     <ToastContainer/>
     <Home />
-    <Informacion />
+    {/* About */}
+    <Informacion /> 
+    {/* Services */}
     <Servicios />
+    {/* Login */}
     <Galery/>
     <Caracteristicas/>
     <Footer />
