@@ -12,11 +12,7 @@ const Servicios = () => {
           <div className='titleContainer'>
             <p className='p1'> <span className='p1Left'>*02* | </span> SERVICIOS</p>
             <div className='cardContainer'>
-              <div className='boxContainer'>
-                <img className='ServiciosImg' src={Inve} alt="" />
-                <h1 className='s1'>INVESTIGACIÓN Y ANÁLISIS *</h1>
-                <p className='t1'>Primer instancia de relevamiento completo de la empresa / negocio y su competencia. Entender donde estamos parados.</p>
-              </div>
+              
               <div className='boxContainer'>
                 <img className='ServiciosImg' src={Estr} alt="" />
                 <h1 className='s1'>ESTRATEGIA *</h1>
