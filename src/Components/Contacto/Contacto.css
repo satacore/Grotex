@@ -162,7 +162,8 @@
     width: 100%;
     justify-content: center;
 }
-#captcha{
-    text-align: center;
-    width: 100px;
-}
+
+.g-recaptcha{
+display: flex;
+justify-content: center;
+width: 100%;}
