@@ -75,9 +75,7 @@
 }
 
 .navButton {
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-size:  14px;
+    font-size: 1em;
     color: #231f1f;
     font-family: 'Free Sans Bold';
     cursor: pointer;
