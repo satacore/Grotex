@@ -1,7 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/gilroy-bold%27');
 
 
-.ServiciosContainer {
+.ServiciosContainer1 {
     padding-top: 100px;
     padding-bottom: 100px;
     box-sizing: border-box;
@@ -10,21 +10,25 @@
     width: 100%;
     background-color: #ffffff;
 }
+
 .generalTextContainer {
     padding: 0 15%;
     pointer-events: none;
 }
+
 @media screen and (max-width:1023px) {
     .generalTextContainer {
         padding: 0 0;
         width: 100%;
     }
 }
+
 .titleContainer {
     text-align: center;
 }
+
 @media screen and (max-width:1023px) {
-    .titleContainer{
+    .titleContainer {
         text-align: center;
     }
 }
@@ -35,12 +39,14 @@
     color: #00000080;
     padding-bottom: 20px;
 }
+
 @media screen and (max-width:1023px) {
     .titleContainer .p1 {
         padding-bottom: 50px;
-        text-align: center;
+        text-align: left;
     }
 }
+
 .titleContainer .p1Left {
     font-family: 'Kanit', sans-serif;
     padding-right: 2px;
@@ -48,78 +54,89 @@
     font-size: 16px;
     font-weight: 100;
     color: rgb(160, 160, 160);
-  }
+}
+
 .cardContainer {
     display: flex;
     width: 100%;
     text-align: center;
     padding: 0 0%;
 }
-svg{
+
+svg {
     max-width: 25%;
     padding-bottom: 1.4em;
     color: #231f1f;
     transition: 1s;
 }
-svg:hover{
+
+svg:hover {
     color: aquamarine;
     transition: 1s;
 }
 
 @media screen and (max-width:1023px) {
     .cardContainer {
-        display: block;   
-        text-align: center; 
-        
+        display: block;
+        text-align: center;
+
     }
 }
+
 @media screen and (max-width: 481px) {
     .cardContainer {
-        display: block;   
-        text-align: center; 
-        
+        display: block;
+        text-align: center;
+
     }
 }
+
 .boxContainer {
     width: 500px;
     text-align: center;
     padding: 0 20px;
 }
+
 @media screen and (max-width:1023px) {
     .boxContainer {
-        width: 400px;  
-        margin: 0px;    
-        margin-left: 10%;
+        width: 400px;
+        margin: 0px;
+        margin-left: 20%;
     }
 }
+
 @media screen and (max-width:750px) {
     .boxContainer {
-        width: 300px;  
-        margin: 0px;    
+        width: 300px;
+        margin: 0px;
+        margin-left: 20%;
+
+    }
+}
+
+@media screen and (max-width:600px) {
+    .boxContainer {
+        width: 300px;
+        margin: 0px;
         margin-left: 10%;
 
     }
 }
-@media screen and (max-width:600px) {
-    .boxContainer {
-        width: 300px;  
-        margin: 0px;    
-        margin-left: 4.5%;
 
-    }
-}
 @media screen and (max-width:481px) {
     .boxContainer {
-        width: auto;  
-        width: 250px;  
+        width: auto;
+        width: 250px;
 
 
     }
 }
-.ServiciosImg{
+
+.ServiciosImg {
     max-width: 40%;
     opacity: 85%;
 }
+
 @media screen and (max-width:1023px) {
     .ServiciosImg {
         max-width: 200px;
