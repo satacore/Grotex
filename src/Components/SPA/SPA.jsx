@@ -16,6 +16,7 @@ const SPA = () => {
     <Home />
     {/* About */}
     <Informacion /> 
+    <Caracteristicas/>
     {/* Services */}
     <Servicios />
     {/* Login */}
