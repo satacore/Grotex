@@ -2,7 +2,7 @@
 
 .footerContainer {
     box-sizing: border-box;
-    background-color: #060606;
+    background-color: #2f2f2f;
     width: 100%;
     height: auto;
     display: flex;
@@ -48,7 +48,7 @@
     text-decoration: solid;
     color: rgb(214, 214, 214);
     font-family: 'Inter', sans-serif;
-    background-color: #060606;
+    background-color: #2f2f2f;
     font-weight: 100;
     font-size: 14px;
     text-align: center;
@@ -80,7 +80,7 @@
     height: 1px;
     width: 500px;
     border: none;
-    background: -webkit-gradient(linear, 0 0, 100% 0, from(rgb(250, 107, 12)), to(transparent), color-stop(50%, rgb(229, 59, 85)));
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(rgb(32, 124, 245)), to(transparent), color-stop(50%, rgb(59, 218, 229)));
 }
 
 @media screen and (max-width:1023px) {

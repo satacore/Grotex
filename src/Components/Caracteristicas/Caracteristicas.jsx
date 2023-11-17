@@ -6,7 +6,7 @@ const Caracteristicas = () => {
     <div className='CaracteristicasContainer'>
         <div id='Caracteristicas' className='generalTextContainer'>
           <div className='titleContainer'>
-            <p className='p1'> <span className='p1Left'>*03* | </span> CARACTERÍSTICAS</p>
+            <p className='p1'>CARACTERÍSTICAS</p>
               <div className='cardContainer'>
                 <div className='boxContainer'> 
                   <h1 className='s1'>SOCIAL MEDIA *</h1>

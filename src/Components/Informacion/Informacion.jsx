@@ -6,12 +6,12 @@ const Informacion = () => {
     <section className='infoContainer'>
       <div id='Informacion' className='generalTextContainer'>
           <div className='titleContainer'>
-              <p className='p1'> <span className='p1Left'>*01* | </span> INFORMACION</p>
+              <p className='p1'> ABOUT</p>
           </div>
           <div className='descriptionContainer'>
-              <p>Bienvenido a Ecoming, tus aliados de marketing digital! En Ecoming buscamos impulsar el crecimiento de tu negocio. Nuestro equipo, expertos en marketing, te van ayudar a navegar por el apasionante mundo digital y descubrir estrategias innovadoras para aumentar tu visibilidad en linea y fortalecer tu marca. Con un enfoque centrado en el cliente y soluciones personalizadas trabajaremos juntos para alcanzar tus objetivos.
-                ¿Estás listo? Abrocha tu cinturón y prepárate para potenciar tu marca dejando una huella en el mercado🚀<br/><br/>
-                🤝¡En Ecoming tu éxito es nuestro éxito!🤝</p>
+              <p>We know the demands of the industry and we have all the experience and technology to help you drive more customers sign up for your products and services. NeptuneAds provides interactive planning and buying services for direct marketers. We specialize in helping our clients acquire new customers and generate sales while taking the guessing game out of online advertising. </p>
+              <br></br>
+              <p>Lead generation is the process of driving customers to inquire into products and services of a business. At NeptuneAds not only we do generate quantity but quality leads as well. Quality leads are determined by the amount of costumers that inquire to take the next action towards a purchase. We achieve this by targeting your business to potential customers only.</p>
           </div>
       </div>
     </section>

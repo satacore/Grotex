@@ -14,7 +14,7 @@
 
 
 .titleContainer {
-    text-align: left;
+    text-align: center;
 }
 
 .titleContainer .p1 {
@@ -45,7 +45,7 @@
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    text-align: LEFT;
+    text-align: center;
     font-weight: 200;
   }
 

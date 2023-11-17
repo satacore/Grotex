@@ -2,7 +2,6 @@ import React from 'react'
 import './servicios.css'
 import Ejec from '../../assets/Ejecucion.png'
 import Estr from '../../assets/Estrategia.png'
-import Inve from '../../assets/Investigacion.png'
 import Paso from '../../assets/Pasos.png'
 
 const Servicios = () => {
@@ -10,7 +9,7 @@ const Servicios = () => {
     <div className='ServiciosContainer'>
         <div id='Servicios' className='generalTextContainer'>
           <div className='titleContainer'>
-            <p className='p1'> <span className='p1Left'>*02* | </span> SERVICIOS</p>
+            <p className='p1'>SERVICES</p>
             <div className='cardContainer'>
               
               <div className='boxContainer'>
