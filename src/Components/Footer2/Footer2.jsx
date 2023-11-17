@@ -11,18 +11,16 @@ const Footer2 = () => {
       <div className='footerCard'>
         <div>
           <div className='footerHeader'>
-          <h1 className='footerTitle' style={{cursor: "default"}}>ECOMING AGENCIA DE MARKETING</h1>
+          <h1 className='footerTitle' style={{cursor: "default"}}>GROTEX ADS</h1>
         <hr className='hrFooter'></hr>
         </div>
           <div className='subCard'>
             <div className='subCarText'>
               <p className='footerSubTitle'>Encontranos</p>
-              <p className='footerSub'>+54 11 2576 5243</p>
-              <p className='footerSub'>contacto@agenciaecoming.com</p>
+              <p className='footerSub'>info@grotexads.com</p>
             </div>
             <div className='subCarText'>
-                <p className='footerSubTitleRed'>Redes</p>
-              <a className='linkIg' href="https://www.instagram.com/agenciaecoming/"><p className='footerSubIg'>Instagram</p></a>
+
             </div>
           </div>
         </div>
@@ -31,7 +29,7 @@ const Footer2 = () => {
         <img src={footerLogo} alt="" />
       </div>
     </div>
-    <p className='footerText'>© 2023 Ecoming | All rights reserved | Privacy | Terms of Use | Desinged By: Satacore</p>
+    <p className='footerText'>© 2023 Grotex | All rights reserved | Privacy | Terms of Use | Desinged By: Satacore</p>
 
     </>
     
