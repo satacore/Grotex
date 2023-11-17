@@ -1,4 +1,10 @@
 @import url('https://fonts.cdnfonts.com/css/gilroy-bold%27');
+ @font-face {
+     font-family: "Free Sans Bold";
+     src: url("../../../public/Free_Sans_Bold/FreeSansBold.eot") format("eot"), url("../../../public/Free_Sans_Bold/FreeSansBold.woff") format("woff"), url("../../../public/Free_Sans_Bold/FreeSansBold.ttf") format("truetype"), url("../../../public/Free_Sans_Bold/FreeSansBold.svg") format("svg");
+     font-weight: normal;
+     font-style: normal;
+ }
 
 .infoContainer {
     width: 100%;
@@ -18,9 +24,11 @@
 }
 
 .titleContainer .p1 {
-    font-size: 14px;
+    font-family: 'Free Sans Bold', sans-serif;
+    font-size: 25px;
+    padding-bottom: 50px;
     font-weight: 400;
-    color: #00000080;
+    color: #231f1f;
 }
 .titleContainer .p1Left {
     font-family: 'Kanit', sans-serif;

@@ -6,7 +6,7 @@ const Informacion = () => {
     <section className='infoContainer'>
       <div id='Informacion' className='generalTextContainer'>
           <div className='titleContainer'>
-              <p className='p1'> ABOUT</p>
+              <p className='p1'>ABOUT US</p>
           </div>
           <div className='descriptionContainer'>
               <p>We know the demands of the industry and we have all the experience and technology to help you drive more customers sign up for your products and services. NeptuneAds provides interactive planning and buying services for direct marketers. We specialize in helping our clients acquire new customers and generate sales while taking the guessing game out of online advertising. </p>
