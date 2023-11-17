@@ -11,7 +11,7 @@ const Home = () => {
   <div className='generalContainer' id='top'>
     <div className='sloganContainer'>
       <h1 className='slogaSubtitle' style={{cursor: "default"}}>GROTEX</h1>
-      <h1 className='slogan' style={{cursor: "default"}}>ADS</h1>
+      <h1 className='slogan' style={{cursor: "default"}}>Ads...</h1>
       <img className='homeImg' src={HomeLogo2} alt="" />
     </div>
   </div>

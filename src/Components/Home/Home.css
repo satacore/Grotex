@@ -44,12 +44,10 @@ h1:hover {
 
 .slogan {
     position: absolute;
-    letter-spacing: 5px;
-    font-size: 20px;
-    margin-left: 8px;
-    font-weight: 400;
+    font-size: 7em;
+    font-weight: 600;
     color: #231f1f;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Free Sans Bold';
 }
 
 @media screen and (max-width:1023px) {
@@ -62,7 +60,7 @@ h1:hover {
     font-size: 7em;
     font-weight: 600;
     color: #231f1f;
-    margin-bottom: 140px;
+    margin-bottom: 200px;
     font-family: 'Free Sans Bold';
 }
 
@@ -79,8 +77,8 @@ h1:hover {
     bottom: 0;
     right: 0;
     pointer-events: none;
+    transition-duration: 2s;
 }
-
 
 
 @media screen and (max-width:1023px) {
