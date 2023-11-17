@@ -6,7 +6,7 @@ const Caracteristicas = () => {
     <div className='CaracteristicasContainer'>
         <div id='Caracteristicas' className='generalTextContainer'>
           <div className='titleContainer'>
-            <p className='p1'>CARACTERÍSTICAS</p>
+            <p className='p1'>FEATURES</p>
               <div className='cardContainer'>
                 <div className='boxContainer'> 
                   <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 21 21">
