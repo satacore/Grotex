@@ -19,7 +19,6 @@ const SPA = () => {
     {/* Services */}
     <Servicios />
     {/* Login */}
-    <Caracteristicas/>
     <Footer />
     </>
   )

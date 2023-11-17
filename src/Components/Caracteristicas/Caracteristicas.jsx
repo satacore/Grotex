@@ -26,14 +26,7 @@ const Caracteristicas = () => {
                   <h1 className='s1'>EMAIL MKT *</h1>
                   <p className='t1'>Campañas inteligentes de Email mkt para crear vínculos sólidos con los consumidores.</p>
                 </div>
-                <div className='boxContainer'> 
-                  <h1 className='s1'>MERCADO LIBRE *</h1>
-                  <p className='t1'>Somos Mercado Libre Partners. Desarrollamos estrategias integrales para crecer en ventas.</p>
-                </div>
-                <div className='boxContainer'> 
-                  <h1 className='s1'>ECOMMERCE *</h1>
-                  <p className='t1'>Diseño, maquetado y programación de ecommerce. Desarrollos en diferentes plataformas.</p>
-                </div>
+                
               </div>
           </div>
         </div>

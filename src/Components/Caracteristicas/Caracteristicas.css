@@ -24,7 +24,7 @@
     font-size: 20px;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
-    background: -webkit-linear-gradient(#f78c45, #e53856);
+    background: -webkit-linear-gradient(rgb(99, 172, 221),rgb(24, 146, 228));
     background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-bottom: 1rem;

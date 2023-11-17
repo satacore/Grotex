@@ -3,6 +3,7 @@ import './Footer.css'
 import {Link} from 'react-scroll'
 import {NavLink} from "react-router-dom";
 import footerLogo from '../../assets/FooterLogo.png'
+import homeLogo2 from '../../assets/HomeLogo2.png'
 import { useContext } from 'react';
 import { handleContext } from '../../Context/handleContext.jsx';
 
@@ -16,7 +17,7 @@ const Footer = () => {
       <div className='footerCard'>
         <div>
           <div className='footerHeader'>
-          <h1 className='footerTitle' style={{cursor: "default"}}>ECOMING AGENCIA DE MARKETING</h1>
+          <h1 className='footerTitle' style={{cursor: "default"}}>GROTEX ADS</h1>
         <hr className='hrFooter'></hr>
         </div>
           <div className='subCard'>
@@ -40,10 +41,10 @@ const Footer = () => {
         </div>
       </div>
       <div className='footerImg'>
-        <img src={footerLogo} alt="" />
+        <img src={homeLogo2} alt="" />
       </div>
     </div>
-    <p className='footerText'>© 2023 Ecoming | All rights reserved | Privacy | Terms of Use | Desinged By: Satacore</p>
+    <p className='footerText'>© 2023 Grotex | All rights reserved | Privacy | Terms of Use | Desinged By: Satacore</p>
 
     </>
     
