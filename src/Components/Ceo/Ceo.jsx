@@ -1,11 +1,11 @@
 import React from 'react'
-import './servicios.css'
-const Servicios = () => {
+import './Ceo.css'
+const Ceo = () => {
   return (
     <div className='ServiciosContainer'>
         <div id='Servicios' className='generalTextContainer'>
           <div className='titleContainer'>
-            <p className='p1'>OUR SERVICES</p>
+            <p className='p1'>CEO</p>
             <div className='cardContainer'>
               <div className='boxContainer'>
                 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 16">
@@ -21,13 +21,6 @@ const Servicios = () => {
                 <h1 className='s1'>OUR LEVEL UP</h1>
                 <p className='t1'>With our dedicated team of professionals, NeptuneAds helps you through the entire process from creative design, placement, tracking and optimization.</p>
               </div>
-              <div className='boxContainer'>
-                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18">
-    <path d="M17.947 2.053a5.209 5.209 0 0 0-3.793-1.53A6.414 6.414 0 0 0 10 2.311 6.482 6.482 0 0 0 5.824.5a5.2 5.2 0 0 0-3.8 1.521c-1.915 1.916-2.315 5.392.625 8.333l7 7a.5.5 0 0 0 .708 0l7-7a6.6 6.6 0 0 0 2.123-4.508 5.179 5.179 0 0 0-1.533-3.793Z"/>
-  </svg>
-                <h1 className='s1'>YOUR SATISFACTION</h1>
-                <p className='t1'>Working with us you will work with professional business developers and media buyers having the vast good experience.</p>
-              </div>
             </div>
           </div>
         </div>
@@ -35,4 +28,4 @@ const Servicios = () => {
   )
 }
 
-export default Servicios
+export default Ceo
