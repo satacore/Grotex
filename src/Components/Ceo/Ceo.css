@@ -1,2 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/gilroy-bold%27');
 
+.ProfilePic{
+    width: 50%;
+    padding-bottom: 1em;
+}
