@@ -24,6 +24,7 @@ const Footer = () => {
               <p className='footerSubTitle'>Links</p>
               <p className={hideButtons ? 'hidden' :'footerSubIg'}><Link to="Informacion" spy={true} smooth={true} offstet={50} duration={500} >ABOUT</Link></p>
               <p className={hideButtons ? 'hidden' :'footerSubIg'}><Link to="Servicios" spy={true} smooth={true} offstet={50} duration={500} >SERVICES</Link></p>
+              <p className={hideButtons ? 'hidden' :'footerSubIg'}><Link to="Caracteristicas" spy={true} smooth={true} offstet={50} duration={500} >FEATURES</Link></p>
               <p className={hideButtons ? 'hidden' :'footerSubIg'}><Link to="Caracteristicas" spy={true} smooth={true} offstet={50} duration={500} >LOG IN</Link></p>
               <p onClick={handleClick} className={hideButtons ? 'hidden' :'footerSubIg'}><NavLink className="contactLink" to="/Contacto" spy={true} smooth={true} offstet={50} duration={500} >CONTACT</NavLink></p>
             </div>
