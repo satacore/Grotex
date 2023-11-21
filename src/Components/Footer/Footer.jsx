@@ -20,13 +20,13 @@ const Footer = () => {
         <hr className='hrFooter'></hr>
         </div>
           <div className='subCard'>
-            <div className={hideButtons ? 'hidden' :'subCarText'}>
+            <div className='subCarText'>
               <p className='footerSubTitle'>Links</p>
-              <p className={hideButtons ? 'hidden' :'footerSubIg'}><Link to="Informacion" spy={true} smooth={true} offstet={50} duration={500} >ABOUT</Link></p>
-              <p className={hideButtons ? 'hidden' :'footerSubIg'}><Link to="Servicios" spy={true} smooth={true} offstet={50} duration={500} >SERVICES</Link></p>
-              <p className={hideButtons ? 'hidden' :'footerSubIg'}><Link to="Caracteristicas" spy={true} smooth={true} offstet={50} duration={500} >FEATURES</Link></p>
-              <p className={hideButtons ? 'hidden' :'footerSubIg'}><Link to="Caracteristicas" spy={true} smooth={true} offstet={50} duration={500} >LOG IN</Link></p>
-              <p onClick={handleClick} className={hideButtons ? 'hidden' :'footerSubIg'}><NavLink className="contactLink" to="/Contacto" spy={true} smooth={true} offstet={50} duration={500} >CONTACT</NavLink></p>
+              <p className='footerSubIg'><Link to="Informacion" spy={true} smooth={true} offstet={50} duration={500} >ABOUT</Link></p>
+              <p className='footerSubIg'><Link to="Servicios" spy={true} smooth={true} offstet={50} duration={500} >SERVICES</Link></p>
+              <p className='footerSubIg'><Link to="Caracteristicas" spy={true} smooth={true} offstet={50} duration={500} >FEATURES</Link></p>
+              <p onClick={handleClick} className='footerSubIg'><NavLink className="contactLink" to="/Login" spy={true} smooth={true} offstet={50} duration={500} >LOG IN</NavLink></p>
+              <p onClick={handleClick} className='footerSubIg'><NavLink className="contactLink" to="/Contacto" spy={true} smooth={true} offstet={50} duration={500} >CONTACT</NavLink></p>
             </div>
             <div className='subCarText'>
               <p className='footerSubTitle'>Encontranos</p>

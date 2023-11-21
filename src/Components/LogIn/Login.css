@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.contactoContainer{
+    box-sizing: border-box;
+    height: auto;
+    align-items: center;
+    background-color: #ffffff;
+    width: 100%;
+}
+.formContainer{
+    display: flex;
+    justify-content: center;
+    padding-bottom:100px;
+}
+
+.formulario{
+    padding: 10px;
+    width: max-content;
+}
+@media screen and (max-width:481px) {
+    .formulario {
+        border:0;
+        padding: 0;
+        width: 90%;
+    }
+}
+@media screen and (max-width:481px) {
+    .inputName,.inputEmail,.inputDescription {
+        width: 98%;
+    }
+}
+
+.contactoTitulo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    padding-top: 100px;
+    text-align: center;
+    cursor: auto;
+
+}
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+}
+.spanForm{
+    color: #231f1f;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: auto;
+    
+}
+@media screen and (max-width:481px) {
+    .contactFlex {
+        padding-top: 30px;
+    }
+}
+.titleForm{
+    font-size: 3em;
+    font-weight: 100;
+    color: #231f1f;
+    font-family: 'Inter', sans-serif;
+    width: 800px;
+    cursor: auto;
+}
+.inputName{
+    border-radius: 5px;
+    border: solid 1px rgb(194, 194, 194);
+    height: 35px;
+    border-radius: 2px;
+    background-color: rgb(212, 212, 212);
+    padding-left: 5px;
+    outline: none;
+}
+.inputEmail{
+    border-radius: 5px;
+    border: solid 1px rgb(194, 194, 194);
+    height: 35px;
+    border-radius: 2px;
+    background-color: rgb(212, 212, 212);
+    padding-left: 5px;
+    outline: none;
+}
+.inputPhone{
+    border-radius: 5px;
+    border: solid 1px rgb(194, 194, 194);
+    height: 35px;
+    border-radius: 2px;
+    background-color: rgb(212, 212, 212);
+    padding-left: 5px;
+    outline: none;
+}
+@media screen and (max-width:481px) {
+    .inputPhone {
+        width: 98%;
+    }
+}
+.inputDescription{
+    border-radius: 5px;
+    border: solid 1px rgb(194, 194, 194);
+    height: 120px;
+    border-radius: 2px;
+    background-color: rgb(212, 212, 212);
+    padding-left: 5px;
+    outline: none;
+}
+
+.formButton{
+    height: 30px;
+    width: 110px;
+    letter-spacing: 0.5px;
+    font-family: 'Roboto';
+    border-radius: 2px;
+    border: none;
+    background-color: #231f1f;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 1s;
+    color: #ffffff;
+}
+
+.formButton:hover {
+    height: 30px;
+    width: 110px;
+    font-family: 'Roboto';
+    background-color: #060606;
+    transition: 1s;
+}
+
+.labelContainer p{
+    color: #231f1f;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    padding-bottom: 4px;
+}
+.volverButton{
+    line-height: 1.23;
+        font-weight: 400;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: max(.6770833333vw, 12px);
+        color: #231f1f;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+        position: relative;
+        border: none;
+        background: none;
+        text-transform: uppercase;
+        transition-duration: 2s;
+        transition-property: color;
+}
+.volverButton:hover {
+    color: #9b9b9b;
+    transition-duration: 2s;
+}
+
+.contactFlex {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.g-recaptcha{
+display: flex;
+justify-content: center;
+width: 100%;}
+
+.passwordContainer{
+    display: flex;
+    align-items: center;
+}
+
+.passwordContainer p{
+    padding: 5px;
+    cursor: pointer;
+    color: rgb(24, 146, 228);
+    font-weight: 400;
+}

@@ -22,7 +22,7 @@ const SPA = () => {
     <Caracteristicas/>
     <Ceo/>
     {/* Login */}
-    <Footer />
+    <Footer/>
     </>
   )
 }
