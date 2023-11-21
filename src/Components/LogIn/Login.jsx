@@ -83,7 +83,7 @@ import { ToastContainer, toast } from 'react-toastify';
                 </div>
                 <br />
                 <div className='buttonContainer'>
-                <NavLink to="/" spy={true} smooth={true} offstet={50} duration={500}><input className='formButton' type="submit" name='Enviar' value="Enviar mensaje" /></NavLink>
+                <NavLink to="/" spy={true} smooth={true} offstet={50} duration={500}><input className='formButton' type="submit" name='Enviar' value="LOG IN" /></NavLink>
                 </div>
                 <hr style={{marginTop: 20 , height:2 }} className='homeDivisor'></hr>
               </label>
